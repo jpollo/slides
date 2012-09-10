@@ -1,0 +1,216 @@
+\documentclass{beamer}
+\usepackage[space,noindent]{ctex}
+\usepackage{times}
+\usepackage{sidecap}
+\usepackage{hyperref}
+\usetheme{Copenhagen}
+%\setbeamercolor{default}
+
+
+
+
+\AtBeginSection[]
+{
+  \begin{frame}{Outline}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+\begin{document}
+\title{Work Summary}
+\subtitle{}
+\author{沈杰}
+\institute[自动化]{Apollo-Rescue}
+\date{\today}
+\logo{\includegraphics[height=1.1cm]{logo.png}}
+\songti
+
+\begin{frame}
+\titlepage
+\end{frame}
+\begin{frame}
+    \frametitle{Outline}
+
+    \tableofcontents
+
+\end{frame}
+
+\section{Problems}
+\subsection{RCRSS Platform}
+\begin{frame}
+Large Multi-Agent Systems\\
+Decision Making Algorithms\\
+Task Allocation Methods\\
+Multi-Agent Coordination and Team Formation Methods\\
+Behaviour Modeling\\
+关于平台
+系统结构图
+\end{frame}
+\begin{frame}
+    \begin{center}
+        \includegraphics[height= 5cm]{rcrss.png}
+    \end{center}
+\end{frame}
+\begin{frame}
+    \begin{block}{Building}
+    \zihao{6}
+        \begin{itemize}
+          \item code (wooden steel concrete)
+          \item area, floors, groundArea , totalArea
+          \item fieryness
+          \item temperature
+          \item energy
+          \item capacity
+          \item wind\_speed wind\_direction
+          \item  and \ldots
+        \end{itemize}
+    \end{block}
+\end{frame}
+\subsection{Code}
+\begin{frame}
+\begin{itemize}
+  \item Read
+  \item Write
+  \item Trouble Shooting
+  \item Design Pattern
+\end{itemize}
+\end{frame}
+\subsection{Theory}
+\begin{frame}
+    \begin{block}{Multi Agent System}
+        智能体协作、协调、协商
+    \end{block}
+    \pause
+     \begin{exampleblock}{Algorithm Model}
+        设计合理、有效的算法模型
+    \end{exampleblock}
+    \pause
+      \begin{alertblock}{Mathematica Model}
+        最终都是数学模型
+    \end{alertblock}
+\end{frame}
+
+\section{Done}
+\subsection{Outer}
+\begin{frame}
+\begin{block}{版本控制SVN}
+        版本管理，协作开发
+    \end{block}
+\end{frame}
+\begin{frame}
+\begin{block}{自动化测试脚本}
+       为需要大量、重复的智能体学习、训练提供条件
+    \end{block}
+    \pause
+    \vspace{1.4cm}
+    \includegraphics[height=2cm]{scripts.png}
+\end{frame}
+\subsection{Inner}
+\begin{frame}
+    \begin{enumerate}
+      \item Improve Distributed Decision
+      \item Test in Path Searching(AStar Search)
+      \item Test in Region Model Assignment
+    \end{enumerate}
+\end{frame}
+
+\section{To Do}
+\subsection{Code Refactoring}
+\begin{frame}
+    \begin{block}{Improve Base Code}
+    Safe(Exception) and Nice(Organization)
+    \end{block}
+    \pause
+    \begin{block}{Improve Efficiency}
+        Decision time (One Cycle):
+        \pause
+        \begin{itemize}
+
+          \item Sense
+          \pause
+          \item Collection Tasks
+          \pause
+          \item Select Best Task
+          \pause
+          \item Execute
+        \end{itemize}
+    \end{block}
+\end{frame}
+\subsection{Path Search}
+\begin{frame}
+    Based on Heuristic Search Algorithm
+    \begin{enumerate}
+      \item Update World Model about road information
+      \item Different Heuristic Function corresponding to current condition
+    \end{enumerate}
+\end{frame}
+
+\subsection{Prediction}
+\begin{frame}
+\frametitle{Fire Strategy}
+\begin{columns}[onlytextwidth]
+    \begin{column}{0.45\textwidth}
+        \includegraphics[width=\textwidth]{fire1.png}
+    \end{column}
+     \begin{column}{0.45\textwidth}
+        \includegraphics[width=\textwidth]{fire2.png}
+    \end{column}
+    \end{columns}
+\end{frame}
+\begin{frame}
+    \frametitle{DeathTime Prediction}
+    When to die? Can save?\\
+    Hp Damage Buriedness
+\end{frame}
+
+\subsection{Coordination}
+\begin{frame}
+    \frametitle{Coordination}
+    \begin{columns}[onlytextwidth]
+        \begin{column}{0.45\textwidth}
+            \includegraphics[width=\textwidth]{dis.png}\\
+
+        \end{column}
+         \begin{column}{0.45\textwidth}
+            \includegraphics[width=\textwidth]{cen.png}\\
+
+        \end{column}
+    \end{columns}
+
+\end{frame}
+
+\begin{frame}
+    
+\end{frame}
+
+\begin{frame}
+    \begin{block}{GAP}
+    Generalized Assignment Problem
+    \end{block}
+\end{frame}
+\begin{frame}
+    \begin{block}{GAP}
+    $<T,A,C>$\\
+    Tasks\\
+    Agents\\
+    Constraints\\
+    \end{block}
+\end{frame}
+
+\begin{frame}
+    \begin{block}{Auction}
+    \end{block}
+    \begin{block}{ACO}
+    Heuristic : Priority of task cost\\
+    Pheromone : Sequence of task assignment
+    \end{block}
+\end{frame}
+
+\begin{frame}
+    \begin{block}{Common}
+   Cost\\
+   
+    \end{block}
+\end{frame}
+
+\end{document}

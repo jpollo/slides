@@ -1,0 +1,13 @@
+\beamer@endinputifotherversion {3.14pt}
+\beamer@sectionintoc {1}{Problems}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{RCRSS Platform}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Code}{7}{0}{1}
+\beamer@subsectionintoc {1}{3}{Theory}{8}{0}{1}
+\beamer@sectionintoc {2}{Done}{11}{0}{2}
+\beamer@subsectionintoc {2}{1}{Outer}{12}{0}{2}
+\beamer@subsectionintoc {2}{2}{Inner}{15}{0}{2}
+\beamer@sectionintoc {3}{To Do}{16}{0}{3}
+\beamer@subsectionintoc {3}{1}{Code Refactoring}{17}{0}{3}
+\beamer@subsectionintoc {3}{2}{Path Search}{23}{0}{3}
+\beamer@subsectionintoc {3}{3}{Prediction}{24}{0}{3}
+\beamer@subsectionintoc {3}{4}{Coordination}{26}{0}{3}
