@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.8.26)  10 SEP 2012 07:50
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.4.11)  12 SEP 2012 09:21
 entering extended mode
-**report.tex
-(C:\Users\JieShen\Desktop\开题-slides\report.tex
+**C:/Users/Jie*Shen/Documents/GitHub/slides/开题-slides/report.tex
+("C:/Users/Jie Shen/Documents/GitHub/slides/开题-slides/report.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
 (C:\CTEX\MiKTeX\tex\latex\beamer\base\beamer.cls
@@ -919,7 +919,7 @@ Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
 (C:\CTEX\MiKTeX\tex\latex\beamer\base\themes\outer\beamerouterthemeinfolines.st
 y
 Package: beamerouterthemeinfolines 2010/07/10  (rcs-revision 445340293dde)
-)) (C:\Users\JieShen\Desktop\开题-slides\report.aux)
+)) ("C:\Users\Jie Shen\Documents\GitHub\slides\开题-slides\report.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
@@ -1068,8 +1068,8 @@ LaTeX Info: Redefining \ref on input line 16.
 LaTeX Info: Redefining \pageref on input line 16.
 LaTeX Info: Redefining \nameref on input line 16.
 
-(C:\Users\JieShen\Desktop\开题-slides\report.out)
-(C:\Users\JieShen\Desktop\开题-slides\report.out)
+("C:\Users\Jie Shen\Documents\GitHub\slides\开题-slides\report.out")
+("C:\Users\Jie Shen\Documents\GitHub\slides\开题-slides\report.out")
 \@outlinefile=\write5
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 16.
@@ -1173,7 +1173,7 @@ File: extended.enc 2008/12/29 4.8.2
 (C:\CTEX\MiKTeX\tex\latex\cjk\extended.chr
 File: extended.chr 2008/12/29 4.8.2
 )
-(C:\Users\JieShen\Desktop\开题-slides\report.nav)
+("C:\Users\Jie Shen\Documents\GitHub\slides\开题-slides\report.nav")
 LaTeX Font Info:    Try loading font information for C19+rm on input line 16.
 
 (C:\CTEX\MiKTeX\tex\latex\ctex\fd\c19rm.fd
@@ -1181,137 +1181,172 @@ File: c19rm.fd 2007/05/06 v0.8a ctex font definition file
 )
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 19.
+(hyperref)                setting the option has no effect on input line 20.
 
 LaTeX Font Info:    Try loading font information for C19+zhsong on input line 2
-7.
+8.
 (C:\CTEX\MiKTeX\tex\latex\zhmetrics\c19zhsong.fd
 File: c19zhsong.fd 2009/09/23 4.8.2
 )
 <pic/logo.png, id=30, 198.7425pt x 113.42375pt>
 File: pic/logo.png Graphic file (type png)
  <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 27.
+Package pdftex.def Info: pic/logo.png used on input line 28.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [1
 
- <C:/Users/JieShen/Desktop/开题-slides/pic/logo.png>]
-(C:\Users\JieShen\Desktop\开题-slides\report.toc)
+ <C:/Users/Jie Shen/Documents/GitHub/slides/开题-slides/pic/logo.png>]
+("C:\Users\Jie Shen\Documents\GitHub\slides\开题-slides\report.toc")
 File: pic/logo.png Graphic file (type png)
- <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 33.
+
+<use pic/logo.png>
+Package pdftex.def Info: pic/logo.png used on input line 32.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [2
 
 ]
-(C:\Users\JieShen\Desktop\开题-slides\report.toc)
+("C:\Users\Jie Shen\Documents\GitHub\slides\开题-slides\report.toc")
 File: pic/logo.png Graphic file (type png)
- <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 35.
+
+<use pic/logo.png>
+Package pdftex.def Info: pic/logo.png used on input line 34.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [3
 
 ]
 File: pic/logo.png Graphic file (type png)
-
-<use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 38.
+ <use pic/logo.png>
+Package pdftex.def Info: pic/logo.png used on input line 44.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [4
 
-] (C:\Users\JieShen\Desktop\开题-slides\report.toc)
+]
 File: pic/logo.png Graphic file (type png)
-
-<use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 40.
+ <use pic/logo.png>
+Package pdftex.def Info: pic/logo.png used on input line 54.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [5
 
 ]
+Package CJKpunct Info: punctuation spaces for family 'zhsong' do not exist. Use
+ family 'def' instead. on input line 58.
 File: pic/logo.png Graphic file (type png)
- <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 48.
+
+<use pic/logo.png>
+Package pdftex.def Info: pic/logo.png used on input line 58.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [6
 
 ]
-(C:\Users\JieShen\Desktop\开题-slides\report.toc)
 File: pic/logo.png Graphic file (type png)
  <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 50.
+Package pdftex.def Info: pic/logo.png used on input line 70.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [7
 
 ]
+("C:\Users\Jie Shen\Documents\GitHub\slides\开题-slides\report.toc")
 File: pic/logo.png Graphic file (type png)
 
 <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 53.
+Package pdftex.def Info: pic/logo.png used on input line 93.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [8
-
-] (C:\Users\JieShen\Desktop\开题-slides\report.toc)
-File: pic/logo.png Graphic file (type png)
-
-<use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 55.
-(pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
- [9
 
 ]
 File: pic/logo.png Graphic file (type png)
  <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 58.
+Package pdftex.def Info: pic/logo.png used on input line 98.
+(pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
+ [9
+
+]
+("C:\Users\Jie Shen\Documents\GitHub\slides\开题-slides\report.toc")
+File: pic/logo.png Graphic file (type png)
+
+<use pic/logo.png>
+Package pdftex.def Info: pic/logo.png used on input line 100.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [10
 
 ]
 File: pic/logo.png Graphic file (type png)
  <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 62.
+Package pdftex.def Info: pic/logo.png used on input line 103.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [11
+
+]
+("C:\Users\Jie Shen\Documents\GitHub\slides\开题-slides\report.toc")
+File: pic/logo.png Graphic file (type png)
+
+<use pic/logo.png>
+Package pdftex.def Info: pic/logo.png used on input line 105.
+(pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
+ [12
+
+]
+File: pic/logo.png Graphic file (type png)
+ <use pic/logo.png>
+Package pdftex.def Info: pic/logo.png used on input line 108.
+(pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
+ [13
+
+]
+File: pic/logo.png Graphic file (type png)
+ <use pic/logo.png>
+Package pdftex.def Info: pic/logo.png used on input line 112.
+(pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
+ [14
+
+]
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <14.4> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 121.
+LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <14.4> not available
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 121.
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <14.4> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 121.
+File: pic/logo.png Graphic file (type png)
+
+<use pic/logo.png>
+Package pdftex.def Info: pic/logo.png used on input line 121.
+(pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
+ [15
 
 ]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
 
-(C:\Users\JieShen\Desktop\开题-slides\report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 64.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 64.
-
-
-Package rerunfilecheck Warning: File `report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `report.out':
-(rerunfilecheck)             Before: 3D56C3992E68CBCD7348CB05203CB12E;576
-(rerunfilecheck)             After:  7174B4F4171AC801C7581A828F0A93B9;194.
+("C:\Users\Jie Shen\Documents\GitHub\slides\开题-slides\report.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: 7174B4F4171AC801C7581A828F0A93B9;194.
  ) 
 Here is how much of TeX's memory you used:
- 22396 strings out of 495354
- 399951 string characters out of 3183859
- 470203 words of memory out of 3000000
- 24981 multiletter control sequences out of 15000+200000
- 23511 words of font info for 64 fonts, out of 3000000 for 9000
+ 22604 strings out of 495354
+ 405992 string characters out of 3183859
+ 470204 words of memory out of 3000000
+ 25177 multiletter control sequences out of 15000+200000
+ 25933 words of font info for 67 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 49i,16n,64p,836b,1071s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/s
-imsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows
-/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:
-/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun
-.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Font
-s/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/wind
-ows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc>
-{C:/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/CTEX/MiKTeX/fonts/type1/urw
-/helvetic/uhvr8a.pfb>
-Output written on report.pdf (11 pages, 159554 bytes).
+ 49i,16n,64p,892b,1103s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/Windows/Fonts/simsun.ttc>
+<C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/sim
+sun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/F
+onts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/W
+indows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.t
+tc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/
+simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Window
+s/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C
+:/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/CTEX/MiKTeX/fonts/type1/
+urw/helvetic/uhvr8a.pfb>
+Output written on report.pdf (15 pages, 193464 bytes).
 PDF statistics:
- 439 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
+ 553 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
  106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

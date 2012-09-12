@@ -1,0 +1,10 @@
+RoboCup Rescue Simulation is a Large Multi-Agent System which its aim is to manage the disaster when an earthquake happens. RoboCup Rescue's main purpose is to provide emergency decision support by integration of disaster information, prediction and planning. RoboCup Rescue Simulation System is one of the prominent systems for AI and Multi-Agent researches.
+Main Objectives
+Design and development of intelligent agents including FireBrigades, AmbulanceTeams and PoliceForces is the main issue of this league. RoboCup Rescue uses real simulated city maps in order to make the process of disaster management more practical in future. Simulators and Rescue Kernel recently updated in order to become more realistic for the league's purpose. New FireSpread simulator and agents' communication model are the most recent updates in the package.  
+Research Areas
+- Large Multi-Agent Systems
+- Decision Making Algorithms
+- Task Allocation Methods
+- Multi-Agent Coordination and Team Formation Methods
+- Behaviour Modeling
+ 
