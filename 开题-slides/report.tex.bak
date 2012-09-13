@@ -53,35 +53,45 @@ RCRSS
 \end{itemize}
 \end{frame}
 \begin{frame}
-图，介绍系统
-
-\end{frame}
-
-\begin{frame}
-图，介绍智能体
+图，系统结构\\
+    \begin{center}
+        \includegraphics[height= 5cm]{rcrss.png}
+    \end{center}
 
 \end{frame}
 
 \begin{frame}
 \begin{center}
-Research Area
+Heteromerous Agents
 \end{center}
 \begin{itemize}
-  \item Large Multi-Agent Systems
-  \item Decision Making Algorithms
-  \item Task Allocation Methods
-  \item Behaviour Modeling
-  \item \ldots
+  \item Police
+  \item Fire
+  \item Ambulance
 \end{itemize}
 
 \end{frame}
 
-\begin{frame}
-\begin{center}
-Main Objectives
-\end{center}
-develop, practics, realistic
-\end{frame}
+%\begin{frame}
+%\begin{center}
+%Research Area
+%\end{center}
+%\begin{itemize}
+%  \item Large Multi-Agent Systems
+%  \item Decision Making Algorithms
+%  \item Task Allocation Methods
+%  \item Behaviour Modeling
+%  \item \ldots
+%\end{itemize}
+%
+%\end{frame}
+
+%\begin{frame}
+%\begin{center}
+%Main Objectives
+%\end{center}
+%develop, practics, realistic
+%\end{frame}
 
 \section{WorldModel}
 \begin{frame}
@@ -90,10 +100,27 @@ World Model \\
 
 \end{frame}
 
+\begin{frame}
+\begin{center}
+WorldModel
+\end{center}
+\begin{block}{What}
+    what
+\end{block}
+\begin{exampleblock}{How}
+设计合理、有效的算法模型
+\end{exampleblock}
+\begin{alertblock}{Go}
+最终都是数学模型
+\end{alertblock}
+\end{frame}
+
+
 \section{Descision Maker}
 \begin{frame}
 descision
 \end{frame}
+
 
 \section{Dynamic Program}
 \begin{frame}
