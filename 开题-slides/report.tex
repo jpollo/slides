@@ -54,10 +54,10 @@ RCRSS
 \end{frame}
 \begin{frame}
 \begin{center}
-Architecture
+Entire Architecture
 \end{center}
     \begin{center}
-        \includegraphics[height= 5cm]{pic/rcrss.png}
+        \includegraphics[height= 6cm]{pic/rcrss.png}
     \end{center}
 \end{frame}
 
@@ -94,14 +94,46 @@ Heteromerous Agents
 %develop, practics, realistic
 %\end{frame}
 
-\section{WorldModel}
+\section{Architecture of Agent}
 \begin{frame}
-World Model \\
-世界模型\\
-
+智能体体系结构的建立
 \end{frame}
 
 \begin{frame}
+\begin{center}
+\includegraphics[height=6cm]{pic/arch_agent.png}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{World Model}
+\begin{center}
+World Model \\
+世界模型\\
+\end{center}
+\end{frame}
+
+\begin{frame}
+第一方面\\
+\begin{center}
+对象状态\\
+Map$<$Entity, EntityInfo$>$
+\end{center}
+\end{frame}
+
+\begin{frame}
+第二方面\\
+智能体自身的信念和目标\\
+\end{frame}
+
+\begin{frame}
+\begin{block}{Our Points}
+信息融合：获取、维护、更新、预测 对象状态\\
+\end{block}
+\end{frame}
+
+\begin{frame}
+测试颜色
 \begin{center}
 WorldModel
 \end{center}
@@ -122,14 +154,63 @@ WorldModel
 descision
 \end{frame}
 
-
-\section{Dynamic Program}
 \begin{frame}
-路径规划
+任务分配
 \end{frame}
 
 \begin{frame}
+拍卖\\
+解释\\
+优点(与遗传比较)\\
+\end{frame}
 
+\begin{frame}
+Auction Framework
+\begin{center}
+\includegraphics[height=6cm]{pic/frame_auction.png}
+\end{center}
+\end{frame}
+
+\begin{frame}
+Limit!\\
+Time Limit!\\
+Resource Limit!\\
+Information Limit!\\
+\end{frame}
+
+\begin{frame}
+解决的几个问题：\\
+分布式拍卖，动态角色切换:\\
+基于竞争对手和拍卖历史，减少通信量\\
+
+\end{frame}
+
+\section{Dynamic Program}
+\begin{frame}
+动态路径规划
+\end{frame}
+
+\begin{frame}
+传统的路径搜索\\
+
+\end{frame}
+
+\begin{frame}
+复杂的动态环境中
+\end{frame}
+
+\begin{frame}
+做过的工作\\
+修改启发信息\\
+预计算\\
+\end{frame}
+
+\begin{frame}
+蚁群算法
+\end{frame}
+
+\begin{frame}
+改良的蚁群算法
 \end{frame}
 
 \begin{frame}

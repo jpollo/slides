@@ -1,0 +1,13 @@
+\beamer@endinputifotherversion {3.14pt}
+\beamer@sectionintoc {1}{Outline}{2}{0}{1}
+\beamer@sectionintoc {2}{起源}{3}{0}{2}
+\beamer@sectionintoc {3}{研究目的}{4}{0}{3}
+\beamer@sectionintoc {4}{研究领域}{5}{0}{4}
+\beamer@sectionintoc {5}{How}{6}{0}{5}
+\beamer@subsectionintoc {5}{1}{仿真平台结构}{6}{0}{5}
+\beamer@subsectionintoc {5}{2}{详细介绍}{8}{0}{5}
+\beamer@sectionintoc {6}{地图}{9}{0}{6}
+\beamer@sectionintoc {7}{比赛环境}{15}{0}{7}
+\beamer@sectionintoc {8}{Why}{17}{0}{8}
+\beamer@subsectionintoc {8}{1}{We Need}{19}{0}{8}
+\beamer@sectionintoc {9}{End}{20}{0}{9}
