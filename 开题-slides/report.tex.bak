@@ -54,10 +54,10 @@ RCRSS
 \end{frame}
 \begin{frame}
 \begin{center}
-Architecture
+Entire Architecture
 \end{center}
     \begin{center}
-        \includegraphics[height= 5cm]{pic/rcrss.png}
+        \includegraphics[height= 6cm]{pic/rcrss.png}
     \end{center}
 \end{frame}
 
@@ -165,16 +165,17 @@ descision
 \end{frame}
 
 \begin{frame}
-拍卖框架
+Auction Framework
 \begin{center}
 \includegraphics[height=6cm]{pic/frame_auction.png}
 \end{center}
 \end{frame}
 
 \begin{frame}
-Our Points!
-有限时间、有限资源、信息部完全
-
+Limit!\\
+Time Limit!\\
+Resource Limit!\\
+Information Limit!\\
 \end{frame}
 
 \begin{frame}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.8.26)  20 SEP 2012 11:09
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.8.26)  24 SEP 2012 21:59
 entering extended mode
 **C:/Users/JieShen/Documents/GitHub/slides/开题-slides/report.tex
 (C:/Users/JieShen/Documents/GitHub/slides/开题-slides/report.tex
@@ -1472,7 +1472,7 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 Here is how much of TeX's memory you used:
  22917 strings out of 495354
  412067 string characters out of 3183859
- 480788 words of memory out of 3000000
+ 480807 words of memory out of 3000000
  25429 multiletter control sequences out of 15000+200000
  38483 words of font info for 104 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1491,7 +1491,7 @@ ts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/win
 dows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/CTEX/MiKTeX/fonts/type1/
 public/amsfonts/cm/cmmi10.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.
 pfb><C:/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on report.pdf (30 pages, 414607 bytes).
+Output written on report.pdf (30 pages, 414653 bytes).
 PDF statistics:
  1005 PDF objects out of 1200 (max. 8388607)
  65 named destinations out of 1000 (max. 500000)

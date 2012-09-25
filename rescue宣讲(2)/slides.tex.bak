@@ -26,20 +26,86 @@ Agent Rescue Simulation}
 %RoboCup Rescue\\
 %机器人救援仿真是是一个通过模拟现实生活中的城市灾难场景，用机器人进行救援的仿真系统，它是和应用领域结合十分密切的新兴工程，其主要目的是使救援智能体进行有效的分工协作，完成营救市民和灭火的任务，以最大限度地减小灾难带来的损失，进而在灾难救援这个重大的社会问题上促进研究和发展。
 
-%\end{frame}
+\begin{frame}
+\begin{center}
+{\huge Me}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+\huge{Nupter}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+\huge{Automan}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+\huge{The old}
+\end{center}
+\end{frame}
+
+
+
+\begin{frame}
+\begin{center}
+\large
+However\\
+\vspace{0.6cm}
+\includegraphics[height=4cm]{me.png}
+\end{center}
+\end{frame}
+
+\begin{frame}
+
+\begin{center}
+\includegraphics[height=3cm]{roborescue}
+\end{center}
+\end{frame}
 
 \section{Outline}
 \begin{frame}
+\begin{center}
 \begin{itemize}
-  \item What
-  \item How
-  \item Why
+  \item \large{What}
+  \item \large{How}
+  \item \large{Why}
 \end{itemize}
+\end{center}
 \end{frame}
 
-\section{起源}
+
+\section{What}
+
 \begin{frame}
-\frametitle{发展历程}
+\begin{center}
+\huge
+RoboCup\\
+\vspace{1.5cm}
+\large
+if 讲过  \hyperlink{rescue}{\beamergotobutton{Jump}} \\
+\end{center}
+\end{frame}
+
+\begin{frame}[label=robocup]
+\begin{center}
+\Large
+度娘说
+\end{center}
+\end{frame}
+
+\begin{frame}
+RoboCup(Robot World Cup）即机器人世界杯足球锦标赛，以MAS(Multi-Agent System）和DAI(Distributed Artificial Intelligence）主要研究背景。主要目的就是通过提供一个标准的易于评价的比赛平台，促进DAI与MAS的研究与发展。
+\end{frame}
+
+
+\begin{frame}[label=rescue]
+\frametitle{Story}
 \begin{itemize}
   \item 1995年1月17日发生在日本神户的特大地震;
   \item 1999年4月30日确定开始机器人救援仿真研究；
@@ -54,20 +120,43 @@ Agent Rescue Simulation}
 
 \end{frame}
 
-\section{研究目的}
+
+
 \begin{frame}
 %Robocup %Rescue的研究主要是为了在灾难救援方面做出贡献。灾难救援是一个很严肃的社会问题，在复杂的不可预料的灾难环境中，多智能体的协调工作成为了研究重点。多智能体系统的研究是近二十年来研究的热门话题，RoboCup Rescue 的研究属于多智能体研究的一个领域。
 \begin{itemize}
-  \item RoboCupRescue 机器人救援仿真是一个通过模拟现实生活中的城市灾难场景，用机器人进行救援的仿真系统；
+  \item RoboCup Rescue 机器人救援仿真是一个通过模拟现实生活中的城市灾难场景，用机器人进行救援的仿真系统； \hyperlink{city}{\beamergotobutton{Go}}
   \item 使救援Agent进行有效的分工协作，完成营救市民和灭火的任务，以最大限度地减小灾难带来的损失，进而在灾难救援这个重大社会问题上促进研究和发展。
 \end{itemize}
 \end{frame}
 
-\section{研究领域}
+\begin{frame}[label=city]
+\begin{center}
+\includegraphics[height=5cm]{city.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}
+%Robocup %Rescue的研究主要是为了在灾难救援方面做出贡献。灾难救援是一个很严肃的社会问题，在复杂的不可预料的灾难环境中，多智能体的协调工作成为了研究重点。多智能体系统的研究是近二十年来研究的热门话题，RoboCup Rescue 的研究属于多智能体研究的一个领域。
+\begin{itemize}
+  \item RoboCup Rescue 机器人救援仿真是一个通过模拟现实生活中的城市灾难场景，用机器人进行救援的仿真系统； \hyperlink{city}{\beamergotobutton{Go}}
+  \item 使救援Agent进行有效的分工协作，完成营救市民和灭火的任务，以最大限度地减小灾难带来的损失，进而在灾难救援这个重大社会问题上促进研究和发展。
+\end{itemize}
+\end{frame}
+
 \begin{frame}
 \begin{center}
-
-MAS
+\begin{center}
+{\large \textbf{Research Domains}}
+\begin{itemize}
+  \item Large Multi-Agent Systems
+  \item Decision Making Algorithms
+  \item Task Allocation Methods
+  \item Behaviour Modeling
+  \item Dynamic Program
+  \item \ldots
+\end{itemize}
+\end{center}
 
 \end{center}
 \end{frame}
@@ -102,8 +191,6 @@ RCR Agents：待开发的智能体\\
 
 \end{frame}
 
-
-\subsection{详细介绍}
 \begin{frame}
 \frametitle{RCR Agents}
 \begin{columns}[onlytextwidth]
@@ -133,7 +220,6 @@ RCR Agents：待开发的智能体\\
 
 \end{frame}
 
-\section{地图}
 \begin{frame}
 \frametitle{Maps : VC}
 \includegraphics[height=70mm]{VC}
@@ -155,14 +241,25 @@ RCR Agents：待开发的智能体\\
 \includegraphics[height=70mm]{Kobe}
 \end{frame}
 
+\section{How}
 \begin{frame}
+\frametitle{How}
 Agent
 \end{frame}
 
-
-\section{比赛环境}
 \begin{frame}
-\frametitle{Environment}
+How to develop ?
+\end{frame}
+
+\begin{frame}
+Framework
+\end{frame}
+
+\begin{frame}
+agent体系结构
+\end{frame}
+
+\begin{frame}
 \zihao{5}
 Os: Linux (Ubuntu)\\
 Language: Java\\
@@ -172,27 +269,108 @@ Language: Java\\
 
 \begin{frame}
 \begin{center}
-比赛时候的图\\
+调试ING\\
+\vspace{0.4cm}
 \includegraphics[height=5cm]{comp}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+比赛ING\\
+\vspace{0.4cm}
+\includegraphics[height=6cm]{sim.jpg}
 \end{center}
 \end{frame}
 
 \section{Why}
 
 \begin{frame}
-Apollo近况\\
-
+Apollo-Rescue近况\\
+数量，质量\\
+Need\\
+code,debug\\
 \end{frame}
 
 \begin{frame}
-装备
+Lang\\
+Algorithm,Data\\
+Field\\
 \end{frame}
 
 \subsection{We Need}
 \begin{frame}
+\begin{center}
+\includegraphics[height=6cm]{wewantu.png}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+\textbf{Team}\\
+\vspace{0.4cm}
+\includegraphics[height=5cm]{team.jpg}
+\end{center}
+\end{frame}
+
+
+%Coder
+
+\begin{frame}
+\begin{center}
+\textbf{Coder}\\
+\vspace{0.5cm}
+\includegraphics[height=5cm]{coder.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+\textbf{Research}\\
+\vspace{0.5cm}
+\includegraphics[height=4cm]{research.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+\textbf{Strong}\\
+\vspace{0.5cm}
+\includegraphics[height=5cm]{strong.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}
 Coder\\
 Researcher\\
-兴趣，踏实，刻苦
+Strong\\
+\end{frame}
+
+
+\begin{frame}
+\begin{center}
+\large So\\
+\vspace{0.5cm}
+\includegraphics[height=3cm]{join.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+\includegraphics[height=5cm]{work.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+\includegraphics[height=5cm]{cup.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+\includegraphics[height=3cm]{dollar.jpg}
+\end{center}
 \end{frame}
 
 \section{End}
@@ -201,9 +379,9 @@ Researcher\\
 \zihao{2}
 \begin{center}
 \textit{Thanks！}\\
-\vspace{1cm}
-\zihao{4}
-Tel: 15850775693
+%\vspace{1cm}
+%\zihao{4}
+%Tel: 15850775693
 \end{center}
 
 \end{frame}
