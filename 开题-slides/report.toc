@@ -2,4 +2,4 @@
 \beamer@sectionintoc {1}{Background}{3}{0}{1}
 \beamer@sectionintoc {2}{Architecture of Agent}{8}{0}{2}
 \beamer@sectionintoc {3}{Descision Maker}{16}{0}{3}
-\beamer@sectionintoc {4}{Dynamic Program}{23}{0}{4}
+\beamer@sectionintoc {4}{Dynamic Program}{26}{0}{4}
