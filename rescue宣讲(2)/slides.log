@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.4)  4 OCT 2012 10:17
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.4)  7 OCT 2012 09:03
 entering extended mode
 **C:/Users/Jasonllinux/Documents/GitHub/slides/rescue宣讲(2)/slides.tex
 (C:/Users/Jasonllinux/Documents/GitHub/slides/rescue宣讲(2)/slides.tex
@@ -1451,205 +1451,221 @@ Package pdftex.def Info: roborescue.pdf used on input line 261.
 ]
 File: roborescue.pdf Graphic file (type pdf)
  <use roborescue.pdf>
-Package pdftex.def Info: roborescue.pdf used on input line 269.
+Package pdftex.def Info: roborescue.pdf used on input line 265.
 (pdftex.def)             Requested size: 59.93907pt x 34.14322pt.
  [29
 
-] <comp.pdf, id=918, 259.97125pt x 194.7275pt>
-File: comp.pdf Graphic file (type pdf)
+]
+File: roborescue.pdf Graphic file (type pdf)
+ <use roborescue.pdf>
+Package pdftex.def Info: roborescue.pdf used on input line 269.
+(pdftex.def)             Requested size: 59.93907pt x 34.14322pt.
+ [30
 
-<use comp.pdf>
-Package pdftex.def Info: comp.pdf used on input line 277.
-(pdftex.def)             Requested size: 189.9361pt x 142.26378pt.
+]
 File: roborescue.pdf Graphic file (type pdf)
  <use roborescue.pdf>
 Package pdftex.def Info: roborescue.pdf used on input line 277.
 (pdftex.def)             Requested size: 59.93907pt x 34.14322pt.
- [30
 
- <C:/Users/Jasonllinux/Documents/GitHub/slides/rescue宣讲(2)/comp.pdf>] <sim.
-jpg, id=949, 649.61798pt x 487.21349pt>
-File: sim.jpg Graphic file (type jpg)
+[31
 
-<use sim.jpg>
-Package pdftex.def Info: sim.jpg used on input line 285.
-(pdftex.def)             Requested size: 227.61751pt x 170.71652pt.
+]
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.54> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 285.
+ <comp.pdf, id=971, 259.97125pt x 194.7275pt>
+File: comp.pdf Graphic file (type pdf)
+ <use comp.pdf>
+Package pdftex.def Info: comp.pdf used on input line 285.
+(pdftex.def)             Requested size: 189.9361pt x 142.26378pt.
 File: roborescue.pdf Graphic file (type pdf)
- <use roborescue.pdf>
+
+<use roborescue.pdf>
 Package pdftex.def Info: roborescue.pdf used on input line 285.
 (pdftex.def)             Requested size: 59.93907pt x 34.14322pt.
- [31
+ [32
+
+ <C:/Users/Jasonllinux/Documents/GitHub/slides/rescue宣讲(2)/comp.pdf>] <sim.
+jpg, id=1002, 649.61798pt x 487.21349pt>
+File: sim.jpg Graphic file (type jpg)
+ <use sim.jpg>
+Package pdftex.def Info: sim.jpg used on input line 293.
+(pdftex.def)             Requested size: 227.61751pt x 170.71652pt.
+File: roborescue.pdf Graphic file (type pdf)
+
+<use roborescue.pdf>
+Package pdftex.def Info: roborescue.pdf used on input line 293.
+(pdftex.def)             Requested size: 59.93907pt x 34.14322pt.
+ [33
 
  <C:/Users/Jasonllinux/Documents/GitHub/slides/rescue宣讲(2)/sim.jpg>]
 File: roborescue.pdf Graphic file (type pdf)
  <use roborescue.pdf>
-Package pdftex.def Info: roborescue.pdf used on input line 294.
+Package pdftex.def Info: roborescue.pdf used on input line 302.
 (pdftex.def)             Requested size: 59.93907pt x 34.14322pt.
- [32
+ [34
 
 ]
 File: roborescue.pdf Graphic file (type pdf)
  <use roborescue.pdf>
-Package pdftex.def Info: roborescue.pdf used on input line 300.
+Package pdftex.def Info: roborescue.pdf used on input line 308.
 (pdftex.def)             Requested size: 59.93907pt x 34.14322pt.
+ [35
 
-[33
-
-] <wewantu.png, id=1029, 369.38pt x 401.5pt>
+]
+<wewantu.png, id=1081, 369.38pt x 401.5pt>
 File: wewantu.png Graphic file (type png)
  <use wewantu.png>
-Package pdftex.def Info: wewantu.png used on input line 307.
+Package pdftex.def Info: wewantu.png used on input line 315.
 (pdftex.def)             Requested size: 157.0605pt x 170.71652pt.
 File: roborescue.pdf Graphic file (type pdf)
 
 <use roborescue.pdf>
-Package pdftex.def Info: roborescue.pdf used on input line 307.
+Package pdftex.def Info: roborescue.pdf used on input line 315.
 (pdftex.def)             Requested size: 59.93907pt x 34.14322pt.
- [34
+ [36
 
- <C:/Users/Jasonllinux/Documents/GitHub/slides/rescue宣讲(2)/wewantu.png>]
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.54> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 315.
- <team.jpg, id=1056, 903.375pt x 648.4225pt>
+ <C:/Users/Jasonllinux/Documents/GitHub/slides/rescue宣讲(2)/wewantu.png>] <t
+eam.jpg, id=1108, 903.375pt x 648.4225pt>
 File: team.jpg Graphic file (type jpg)
 
 <use team.jpg>
-Package pdftex.def Info: team.jpg used on input line 315.
+Package pdftex.def Info: team.jpg used on input line 323.
 (pdftex.def)             Requested size: 198.19174pt x 142.26378pt.
 File: roborescue.pdf Graphic file (type pdf)
  <use roborescue.pdf>
-Package pdftex.def Info: roborescue.pdf used on input line 315.
+Package pdftex.def Info: roborescue.pdf used on input line 323.
 (pdftex.def)             Requested size: 59.93907pt x 34.14322pt.
- [35
+ [37
 
  <C:/Users/Jasonllinux/Documents/GitHub/slides/rescue宣讲(2)/team.jpg>]
-<coder.jpg, id=1083, 352.31625pt x 442.65375pt>
+<coder.jpg, id=1136, 352.31625pt x 442.65375pt>
 File: coder.jpg Graphic file (type jpg)
  <use coder.jpg>
-Package pdftex.def Info: coder.jpg used on input line 326.
+Package pdftex.def Info: coder.jpg used on input line 334.
 (pdftex.def)             Requested size: 113.2327pt x 142.26378pt.
 File: roborescue.pdf Graphic file (type pdf)
 
 <use roborescue.pdf>
-Package pdftex.def Info: roborescue.pdf used on input line 326.
+Package pdftex.def Info: roborescue.pdf used on input line 334.
 (pdftex.def)             Requested size: 59.93907pt x 34.14322pt.
- [36
+ [38
 
  <C:/Users/Jasonllinux/Documents/GitHub/slides/rescue宣讲(2)/coder.jpg>] <res
-earch.jpg, id=1110, 269.005pt x 188.705pt>
+earch.jpg, id=1163, 269.005pt x 188.705pt>
 File: research.jpg Graphic file (type jpg)
 
 <use research.jpg>
-Package pdftex.def Info: research.jpg used on input line 334.
+Package pdftex.def Info: research.jpg used on input line 342.
 (pdftex.def)             Requested size: 162.2416pt x 113.81102pt.
 File: roborescue.pdf Graphic file (type pdf)
  <use roborescue.pdf>
-Package pdftex.def Info: roborescue.pdf used on input line 334.
+Package pdftex.def Info: roborescue.pdf used on input line 342.
 (pdftex.def)             Requested size: 59.93907pt x 34.14322pt.
- [37
+ [39
 
  <C:/Users/Jasonllinux/Documents/GitHub/slides/rescue宣讲(2)/research.jpg>]
-<strong.jpg, id=1138, 502.87875pt x 333.245pt>
+<strong.jpg, id=1190, 502.87875pt x 333.245pt>
 File: strong.jpg Graphic file (type jpg)
  <use strong.jpg>
-Package pdftex.def Info: strong.jpg used on input line 342.
+Package pdftex.def Info: strong.jpg used on input line 350.
 (pdftex.def)             Requested size: 214.68364pt x 142.26378pt.
 File: roborescue.pdf Graphic file (type pdf)
 
 <use roborescue.pdf>
-Package pdftex.def Info: roborescue.pdf used on input line 342.
+Package pdftex.def Info: roborescue.pdf used on input line 350.
 (pdftex.def)             Requested size: 59.93907pt x 34.14322pt.
- [38
+ [40
 
  <C:/Users/Jasonllinux/Documents/GitHub/slides/rescue宣讲(2)/strong.jpg>]
 File: roborescue.pdf Graphic file (type pdf)
  <use roborescue.pdf>
-Package pdftex.def Info: roborescue.pdf used on input line 348.
+Package pdftex.def Info: roborescue.pdf used on input line 356.
 (pdftex.def)             Requested size: 59.93907pt x 34.14322pt.
- [39
+ [41
 
 ]
-<join.jpg, id=1191, 907.39pt x 368.37625pt>
+<join.jpg, id=1243, 907.39pt x 368.37625pt>
 File: join.jpg Graphic file (type jpg)
  <use join.jpg>
-Package pdftex.def Info: join.jpg used on input line 357.
+Package pdftex.def Info: join.jpg used on input line 365.
 (pdftex.def)             Requested size: 210.24602pt x 85.35826pt.
 File: roborescue.pdf Graphic file (type pdf)
 
 <use roborescue.pdf>
-Package pdftex.def Info: roborescue.pdf used on input line 357.
-(pdftex.def)             Requested size: 59.93907pt x 34.14322pt.
- [40
-
- <C:/Users/Jasonllinux/Documents/GitHub/slides/rescue宣讲(2)/join.jpg>] <work
-.jpg, id=1218, 231.86626pt x 218.8175pt>
-File: work.jpg Graphic file (type jpg)
-
-<use work.jpg>
-Package pdftex.def Info: work.jpg used on input line 363.
-(pdftex.def)             Requested size: 150.75018pt x 142.26378pt.
-File: roborescue.pdf Graphic file (type pdf)
- <use roborescue.pdf>
-Package pdftex.def Info: roborescue.pdf used on input line 363.
-(pdftex.def)             Requested size: 59.93907pt x 34.14322pt.
- [41
-
- <C:/Users/Jasonllinux/Documents/GitHub/slides/rescue宣讲(2)/work.jpg>] <cup.
-jpg, id=1245, 1027.84pt x 1027.84pt>
-File: cup.jpg Graphic file (type jpg)
-
-<use cup.jpg>
-Package pdftex.def Info: cup.jpg used on input line 369.
-(pdftex.def)             Requested size: 142.24985pt x 142.26378pt.
-File: roborescue.pdf Graphic file (type pdf)
- <use roborescue.pdf>
-Package pdftex.def Info: roborescue.pdf used on input line 369.
+Package pdftex.def Info: roborescue.pdf used on input line 365.
 (pdftex.def)             Requested size: 59.93907pt x 34.14322pt.
  [42
 
+ <C:/Users/Jasonllinux/Documents/GitHub/slides/rescue宣讲(2)/join.jpg>] <work
+.jpg, id=1270, 231.86626pt x 218.8175pt>
+File: work.jpg Graphic file (type jpg)
+
+<use work.jpg>
+Package pdftex.def Info: work.jpg used on input line 371.
+(pdftex.def)             Requested size: 150.75018pt x 142.26378pt.
+File: roborescue.pdf Graphic file (type pdf)
+ <use roborescue.pdf>
+Package pdftex.def Info: roborescue.pdf used on input line 371.
+(pdftex.def)             Requested size: 59.93907pt x 34.14322pt.
+ [43
+
+ <C:/Users/Jasonllinux/Documents/GitHub/slides/rescue宣讲(2)/work.jpg>] <cup.
+jpg, id=1298, 1027.84pt x 1027.84pt>
+File: cup.jpg Graphic file (type jpg)
+
+<use cup.jpg>
+Package pdftex.def Info: cup.jpg used on input line 377.
+(pdftex.def)             Requested size: 142.24985pt x 142.26378pt.
+File: roborescue.pdf Graphic file (type pdf)
+ <use roborescue.pdf>
+Package pdftex.def Info: roborescue.pdf used on input line 377.
+(pdftex.def)             Requested size: 59.93907pt x 34.14322pt.
+ [44
+
  <C:/Users/Jasonllinux/Documents/GitHub/slides/rescue宣讲(2)/cup.jpg>]
-<dollar.jpg, id=1272, 343.2825pt x 147.55125pt>
+<dollar.jpg, id=1325, 343.2825pt x 147.55125pt>
 File: dollar.jpg Graphic file (type jpg)
  <use dollar.jpg>
-Package pdftex.def Info: dollar.jpg used on input line 375.
+Package pdftex.def Info: dollar.jpg used on input line 383.
 (pdftex.def)             Requested size: 198.59065pt x 85.35826pt.
 File: roborescue.pdf Graphic file (type pdf)
 
 <use roborescue.pdf>
-Package pdftex.def Info: roborescue.pdf used on input line 375.
+Package pdftex.def Info: roborescue.pdf used on input line 383.
 (pdftex.def)             Requested size: 59.93907pt x 34.14322pt.
- [43
+ [45
 
  <C:/Users/Jasonllinux/Documents/GitHub/slides/rescue宣讲(2)/dollar.jpg>]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <22.08> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 388.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 396.
 File: roborescue.pdf Graphic file (type pdf)
  <use roborescue.pdf>
-Package pdftex.def Info: roborescue.pdf used on input line 388.
+Package pdftex.def Info: roborescue.pdf used on input line 396.
 (pdftex.def)             Requested size: 59.93907pt x 34.14322pt.
- [44
+ [46
 
 ]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 390.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 390.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 398.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 398.
 
 (C:\Users\Jasonllinux\Documents\GitHub\slides\rescue宣讲(2)\slides.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 390.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 390.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 398.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 398.
 Package rerunfilecheck Info: File `slides.out' has not changed.
-(rerunfilecheck)             Checksum: FD2B79D9E9225971006A885C38B0AFEB;360.
+(rerunfilecheck)             Checksum: BE648A5ADCA3CDFD7D914FB6F837049E;360.
  ) 
 Here is how much of TeX's memory you used:
- 23040 strings out of 495354
- 412779 string characters out of 3183859
- 472702 words of memory out of 3000000
- 25503 multiletter control sequences out of 15000+200000
+ 23064 strings out of 495354
+ 413218 string characters out of 3183859
+ 472774 words of memory out of 3000000
+ 25523 multiletter control sequences out of 15000+200000
  57647 words of font info for 145 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 49i,16n,57p,902b,1477s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,16n,57p,902b,1497s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Windows/Fonts/simsun.ttc>{C:/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}
 <C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/sim
 sun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/F
@@ -1666,9 +1682,9 @@ dows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc
 s/type1/public/amsfonts/symbols/msam10.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/helv
 etic/uhvb8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/CTEX/Mi
 KTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on slides.pdf (44 pages, 2578633 bytes).
+Output written on slides.pdf (46 pages, 2591662 bytes).
 PDF statistics:
- 1466 PDF objects out of 1728 (max. 8388607)
- 103 named destinations out of 1000 (max. 500000)
+ 1518 PDF objects out of 1728 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
  241 words of extra memory for PDF output out of 10000 (max. 10000000)
 

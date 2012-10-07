@@ -10,7 +10,7 @@
 \zihao{5}
 \title{RoboCup\\
 Agent Rescue Simulation}
-\author{沈杰}
+\author{沈 杰}
 \institute{Apollo-Rescue}
 \date{\today}
 \logo{\includegraphics[height=1.2cm]{roborescue}}
@@ -148,6 +148,7 @@ RoboCup(Robot World Cup）即机器人世界杯足球锦标赛，以MAS(Multi-Agent System）和D
 \begin{center}
 \begin{center}
 {\large \textbf{Research Domains}}
+\vspace{0.5cm}
 \begin{itemize}
   \item Large Multi-Agent Systems
   \item Decision Making Algorithms
@@ -245,6 +246,10 @@ RCR Agents：待开发的智能体\\
 \begin{frame}
 \frametitle{How}
 Agent
+\end{frame}
+
+\begin{frame}
+
 \end{frame}
 
 \begin{frame}
