@@ -245,11 +245,13 @@ RCR Agents：待开发的智能体\\
 \section{How}
 \begin{frame}
 \frametitle{How}
+\begin{center}
 Agent
+\end{center}
 \end{frame}
 
 \begin{frame}
-
+两幅智能体的图
 \end{frame}
 
 \begin{frame}
@@ -265,6 +267,10 @@ agent体系结构
 \end{frame}
 
 \begin{frame}
+插入思维导图
+\end{frame}
+
+\begin{frame}
 \zihao{5}
 Os: Linux (Ubuntu)\\
 Language: Java\\
@@ -274,7 +280,7 @@ Language: Java\\
 
 \begin{frame}
 \begin{center}
-调试ING\\
+\textbf{调试ING}\\
 \vspace{0.4cm}
 \includegraphics[height=5cm]{comp}
 \end{center}
@@ -282,7 +288,7 @@ Language: Java\\
 
 \begin{frame}
 \begin{center}
-比赛ING\\
+\textbf{比赛ING}\\
 \vspace{0.4cm}
 \includegraphics[height=6cm]{sim.jpg}
 \end{center}
@@ -295,6 +301,7 @@ Apollo-Rescue近况\\
 数量，质量\\
 Need\\
 code,debug\\
+特殊性(长期性)
 \end{frame}
 
 \begin{frame}
