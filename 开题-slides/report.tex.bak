@@ -5,7 +5,8 @@
 \usepackage{hyperref}
 \usetheme{Madrid}
 %\setbeamercolor{default}
-
+%\transsplithorizontalin
+%\transdissolve[duration=0.2]
 \AtBeginSection[]
 {
   \begin{frame}{Outline}
@@ -34,11 +35,7 @@
 \section{Background}
 \begin{frame}
 \begin{center}
-RCRSS
-\end{center}
-
-\begin{center}
-RoboCup Rescue Simulation System
+RCRSS,RoboCup Rescue Simulation System
 \end{center}
 
 \end{frame}
@@ -52,9 +49,22 @@ RCRSS
   \item Test Bed
 \end{itemize}
 \end{frame}
+
+%%% TODO 可以加特效 %%%
 \begin{frame}
 \begin{center}
-Entire Architecture
+\includegraphics[height=4.6cm]{pic/city.png}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+研究领域
+\end{center}
+\end{frame}
+
+\begin{frame}
+\begin{center}
 \end{center}
     \begin{center}
         \includegraphics[height= 6cm]{pic/rcrss.png}
@@ -63,6 +73,7 @@ Entire Architecture
 
 \begin{frame}
 \begin{center}
+大型异构多智能体系统\\
 Heteromerous Agents
 \end{center}
 \begin{itemize}
@@ -95,8 +106,31 @@ Heteromerous Agents
 %\end{frame}
 
 \section{Architecture of Agent}
+%%问题描述
+\begin{frame} \transboxin<1>
+\begin{center}
+\begin{columns}[onlytextwidth]
+\begin{column}{0.45\textwidth}
+\includegraphics[height=3.7cm]{pic/question.jpg}
+\end{column}
+\begin{column}{0.45\textwidth}
+问题描述\\
+智能体体系结构的建立\\
+世界模型的构建
+\end{column}
+\end{columns}
+\end{center}
+\end{frame}
+
 \begin{frame}
 智能体体系结构的建立
+\end{frame}
+
+%%%我们的解决方案
+\begin{frame}
+\begin{center}
+\includegraphics[height=4cm]{pic/solution.jpg}
+\end{center}
 \end{frame}
 
 \begin{frame}
@@ -111,6 +145,10 @@ Heteromerous Agents
 World Model \\
 世界模型\\
 \end{center}
+\end{frame}
+
+\begin{frame}
+世界模型的定义\\
 \end{frame}
 
 \begin{frame}
@@ -133,23 +171,52 @@ Map$<$Entity, EntityInfo$>$
 \end{frame}
 
 \begin{frame}
-测试颜色
-\begin{center}
-WorldModel
-\end{center}
-\begin{block}{What}
-    what
-\end{block}
-\begin{exampleblock}{How}
-设计合理、有效的算法模型
-\end{exampleblock}
-\begin{alertblock}{Go}
-最终都是数学模型
-\end{alertblock}
+维护、更新\\
+状态预测
+\end{frame}
+
+\begin{frame}
+不完全\\
+滞后\\
+Decision Support
 \end{frame}
 
 
+%\begin{frame}
+%测试颜色
+%\begin{center}
+%WorldModel
+%\end{center}
+%\begin{block}{What}
+%    what
+%\end{block}
+%\begin{exampleblock}{How}
+%设计合理、有效的算法模型
+%\end{exampleblock}
+%\begin{alertblock}{Go}
+%最终都是数学模型
+%\end{alertblock}
+%\end{frame}
+
+
 \section{Descision Maker}
+%%问题描述
+\begin{frame} \transboxin<1>
+\begin{center}
+\begin{columns}[onlytextwidth]
+\begin{column}{0.45\textwidth}
+\includegraphics[height=3.7cm]{pic/question.jpg}
+\end{column}
+\begin{column}{0.45\textwidth}
+问题描述\\
+多智能体协商\\
+任务分配问题
+\end{column}
+\end{columns}
+\end{center}
+\end{frame}
+
+
 \begin{frame}
 descision
 \end{frame}
@@ -164,10 +231,18 @@ descision
 优点(与遗传比较)\\
 \end{frame}
 
+%%%我们的解决方案
+\begin{frame}
+\begin{center}
+\includegraphics[height=4cm]{pic/solution.jpg}
+\end{center}
+\end{frame}
+
 \begin{frame}
 \begin{center}
 \textbf{Auction Framework}
 \end{center}
+\vspace{1cm}
 \begin{center}
 \includegraphics[height=6cm]{pic/frame_auction.png}
 \end{center}
@@ -188,7 +263,11 @@ Information Limit!\\
 \end{frame}
 
 \begin{frame}
-Auction算子
+\begin{center}
+Auction Notion\\
+\vspace{1.5cm}
+$Auction=<A,B,C,D,E,F>$
+\end{center}
 \end{frame}
 
 \begin{frame}
@@ -201,24 +280,119 @@ Auction算子
 \end{frame}
 
 \section{Dynamic Program}
+
+%%问题描述
+\begin{frame} \transboxin<1>
+\begin{center}
+\begin{columns}[onlytextwidth]
+\begin{column}{0.45\textwidth}
+\includegraphics[height=3.7cm]{pic/question.jpg}
+\end{column}
+\begin{column}{0.45\textwidth}
+问题描述\\
+路径规划问题
+\end{column}
+\end{columns}
+\end{center}
+\end{frame}
+
 \begin{frame}
 动态路径规划
 \end{frame}
 
 \begin{frame}
+\begin{center}
 传统的路径搜索\\
-
+\end{center}
+A Star\\
+另外一种\\
 \end{frame}
 
 \begin{frame}
-复杂的动态环境中
+面临的情况\\
+复杂的动态环境中\\
+节点众多\\
+计算量大\\
 \end{frame}
 
 \begin{frame}
-做过的工作\\
+改善的方向:\\
 修改启发信息\\
 预计算\\
 \end{frame}
+
+\begin{frame}
+\begin{center}
+\includegraphics[height=4cm]{pic/google_logo.jpg}
+\end{center}
+\end{frame}
+
+%google地图演示
+\begin{frame}
+\begin{center}
+From 南邮 to 玄武湖\\
+\vspace{0.4cm}
+\includegraphics[height=4cm]{pic/google_map.png}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\begin{columns}[onlytextwidth]
+\begin{column}{0.45\textwidth}
+\begin{center}
+\includegraphics[height=5cm]{pic/wujun.jpg}\\
+\vspace{0.35cm}
+Google 吴军\\
+\end{center}
+\end{column}
+\begin{column}{0.45\textwidth}
+地图和本地搜索\\
+有限状态机和动态规划\\
+\end{column}
+\end{columns}
+\end{frame}
+
+%%书上例子
+\begin{frame}
+\begin{center}
+\includegraphics[height=6cm]{pic/map_demo.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}
+详细说明，计算量的减小
+\end{frame}
+
+%%%我们的解决方案
+\begin{frame}
+\begin{columns}[onlytextwidth]
+\begin{column}{0.45\textwidth}
+\begin{center}
+\includegraphics[height=4cm]{pic/solution.jpg}
+\end{center}
+\end{column}
+\begin{column}{0.45\textwidth}
+聚类、蚁群、动态规划
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+聚类\\
+\end{center}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+聚类效果图\\
+\end{center}
+\end{frame}
+
+\begin{frame}
+两者结合
+\end{frame}
+
 
 \begin{frame}
 蚁群算法
