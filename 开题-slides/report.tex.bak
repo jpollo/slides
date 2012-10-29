@@ -35,7 +35,9 @@
 \section{Background}
 \begin{frame}
 \begin{center}
-RCRSS,RoboCup Rescue Simulation System
+\textbf{RCRSS}\\
+\vspace{0.35cm}
+RoboCup Rescue Simulation System
 \end{center}
 
 \end{frame}
@@ -59,7 +61,14 @@ RCRSS
 
 \begin{frame}
 \begin{center}
-研究领域
+研究领域\\
+\begin{itemize}
+  \item Large Multi-Agent Systems
+  \item Decision Making Algorithms
+  \item Task Allocation Methods
+  \item Behaviour Modeling
+  \item \ldots
+\end{itemize}
 \end{center}
 \end{frame}
 
@@ -182,24 +191,7 @@ Decision Support
 \end{frame}
 
 
-%\begin{frame}
-%测试颜色
-%\begin{center}
-%WorldModel
-%\end{center}
-%\begin{block}{What}
-%    what
-%\end{block}
-%\begin{exampleblock}{How}
-%设计合理、有效的算法模型
-%\end{exampleblock}
-%\begin{alertblock}{Go}
-%最终都是数学模型
-%\end{alertblock}
-%\end{frame}
-
-
-\section{Descision Maker}
+\section{Task Allocation}
 %%问题描述
 \begin{frame} \transboxin<1>
 \begin{center}
@@ -216,13 +208,14 @@ Decision Support
 \end{center}
 \end{frame}
 
-
 \begin{frame}
-descision
+决策\\
+任务分配
 \end{frame}
 
 \begin{frame}
-任务分配
+定义\\
+多对多的映射问题
 \end{frame}
 
 \begin{frame}
@@ -340,7 +333,7 @@ From 南邮 to 玄武湖\\
 \begin{columns}[onlytextwidth]
 \begin{column}{0.45\textwidth}
 \begin{center}
-\includegraphics[height=5cm]{pic/wujun.jpg}\\
+\includegraphics[height=4cm]{pic/wujun.jpg}\\
 \vspace{0.35cm}
 Google 吴军\\
 \end{center}
@@ -353,14 +346,27 @@ Google 吴军\\
 \end{frame}
 
 %%书上例子
-\begin{frame}
-\begin{center}
-\includegraphics[height=6cm]{pic/map_demo.jpg}
-\end{center}
-\end{frame}
+%\begin{frame}
+   % \begin{columns}[onlytextwidth]
+    %    \begin{column}{0.45\textwidth}
+ %           \begin{center}
+  %              \includegraphics[height=4cm]{pic/map_demo.jpg}
+  %          \end{center}
+     %   \end{column}
+      %  \begin{column}{0.45\textwidth}
+      %      \begin{center}
+      %  
+      %          \end{center}
+      %  \end{column}
+    %\end{columns}
+%\end{frame}
 
+
+%合起来
 \begin{frame}
-详细说明，计算量的减小
+计算量比较\\
+动态规划:$10\times10\times15$ \\
+Other:$10^{15}$
 \end{frame}
 
 %%%我们的解决方案

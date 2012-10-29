@@ -315,25 +315,27 @@ A Star\\
 \end{frame}
 
 \begin{frame}
+\begin{columns}[onlytextwidth]
+\begin{column}{0.2\textwidth}
 \begin{center}
-\includegraphics[height=4cm]{pic/google_logo.jpg}
+\includegraphics[height=1.5cm]{pic/google_logo.jpg}
 \end{center}
-\end{frame}
-
-%google地图演示
-\begin{frame}
+\end{column}
+\begin{column}{0.8\textwidth}
 \begin{center}
 From 南邮 to 玄武湖\\
 \vspace{0.4cm}
 \includegraphics[height=4cm]{pic/google_map.png}
 \end{center}
+\end{column}
+\end{columns}
 \end{frame}
 
 \begin{frame}
 \begin{columns}[onlytextwidth]
 \begin{column}{0.45\textwidth}
 \begin{center}
-\includegraphics[height=5cm]{pic/wujun.jpg}\\
+\includegraphics[height=4.5cm]{pic/wujun.jpg}\\
 \vspace{0.35cm}
 Google 吴军\\
 \end{center}
@@ -347,14 +349,24 @@ Google 吴军\\
 
 %%书上例子
 \begin{frame}
-\begin{center}
-\includegraphics[height=6cm]{pic/map_demo.jpg}
-\end{center}
+   \begin{columns}[onlytextwidth]
+        \begin{column}{0.7\textwidth}
+            \begin{center}
+                \includegraphics[height=5cm]{pic/map_demo.jpg}
+            \end{center}
+        \end{column}
+        \begin{column}{0.3\textwidth}
+            \begin{center}
+            计算量比较\\
+            \vspace{2cm}
+            \pause
+            动态规划:$10\times10\times15$ \\
+            Other:$10^{15}$
+            \end{center}
+        \end{column}
+    \end{columns}
 \end{frame}
 
-\begin{frame}
-详细说明，计算量的减小
-\end{frame}
 
 %%%我们的解决方案
 \begin{frame}
@@ -373,19 +385,27 @@ Google 吴军\\
 \begin{frame}
 \begin{center}
 聚类\\
+解释，流程
 \end{center}
 \end{frame}
 
 \begin{frame}
 \begin{center}
 聚类效果图\\
+\vspace{1cm}
+\includegraphics[height=3.5cm]{pic/before_cluster.png}
+\hspace{0.3cm}
+\includegraphics[height=3.5cm]{pic/after_cluster.png}
 \end{center}
 \end{frame}
 
 \begin{frame}
-两者结合
+计算复杂度，问题域规模
 \end{frame}
 
+\begin{frame}
+蚁群算法概述
+\end{frame}
 
 \begin{frame}
 蚁群算法

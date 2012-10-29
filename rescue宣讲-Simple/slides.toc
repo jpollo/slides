@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.14pt}
+\beamer@sectionintoc {1}{What}{3}{0}{1}
+\beamer@sectionintoc {2}{How}{9}{0}{2}
+\beamer@subsectionintoc {2}{1}{仿真平台结构}{9}{0}{2}
+\beamer@sectionintoc {3}{How}{17}{0}{3}
+\beamer@sectionintoc {4}{Why}{20}{0}{4}
+\beamer@sectionintoc {5}{End}{21}{0}{5}
