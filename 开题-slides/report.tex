@@ -123,16 +123,20 @@ Heteromerous Agents
 \includegraphics[height=3.7cm]{pic/question.jpg}
 \end{column}
 \begin{column}{0.45\textwidth}
-问题描述\\
-智能体体系结构的建立\\
-世界模型的构建
+
+{\Large How}\\
+\begin{itemize}
+  \item 智能体体系结构的建立\\
+  \item 多智能体信息融合
+\end{itemize}
+
 \end{column}
 \end{columns}
 \end{center}
 \end{frame}
 
 \begin{frame}
-智能体体系结构的建立
+智能体的体系结构
 \end{frame}
 
 %%%我们的解决方案
@@ -144,33 +148,11 @@ Heteromerous Agents
 
 \begin{frame}
 \begin{center}
-\includegraphics[height=6cm]{pic/arch_agent.png}
+Arch of Agent
 \end{center}
-\end{frame}
-
-\begin{frame}
-\frametitle{World Model}
 \begin{center}
-World Model \\
-世界模型\\
+\includegraphics[height=5.5cm]{pic/arch.png}
 \end{center}
-\end{frame}
-
-\begin{frame}
-世界模型的定义\\
-\end{frame}
-
-\begin{frame}
-第一方面\\
-\begin{center}
-对象状态\\
-Map$<$Entity, EntityInfo$>$
-\end{center}
-\end{frame}
-
-\begin{frame}
-第二方面\\
-智能体自身的信念和目标\\
 \end{frame}
 
 \begin{frame}
@@ -180,16 +162,11 @@ Map$<$Entity, EntityInfo$>$
 \end{frame}
 
 \begin{frame}
-维护、更新\\
-状态预测
-\end{frame}
-
-\begin{frame}
-不完全\\
-滞后\\
+通信受限\\
+信息不完全\\
+信息滞后，带噪声\\
 Decision Support
 \end{frame}
-
 
 \section{Task Allocation}
 %%问题描述
@@ -200,28 +177,12 @@ Decision Support
 \includegraphics[height=3.7cm]{pic/question.jpg}
 \end{column}
 \begin{column}{0.45\textwidth}
-问题描述\\
-多智能体协商\\
+{\Large How}\\
+多对多的协商\\
 任务分配问题
 \end{column}
 \end{columns}
 \end{center}
-\end{frame}
-
-\begin{frame}
-决策\\
-任务分配
-\end{frame}
-
-\begin{frame}
-定义\\
-多对多的映射问题
-\end{frame}
-
-\begin{frame}
-拍卖\\
-解释\\
-优点(与遗传比较)\\
 \end{frame}
 
 %%%我们的解决方案
@@ -232,28 +193,40 @@ Decision Support
 \end{frame}
 
 \begin{frame}
+\begin{block}{拍卖}
+发生在人类社会中的一种经济现象，卖方制定拍卖规则，买方按照规则出价，最后依据拍卖规则计算出成交的买方与价格，双方达成交易\\
+\vspace{0.7cm}
+\pause
+\textbf{优点:}\\
+拍卖是一种快速有效的资源分配方法，具有较强的可操作性，可使参与拍卖的卖方和买方均获得理想的效用
+\end{block}
+
+\end{frame}
+
+\begin{frame}
 \begin{center}
 \textbf{Auction Framework}
 \end{center}
-\vspace{1cm}
 \begin{center}
 \includegraphics[height=6cm]{pic/frame_auction.png}
 \end{center}
 \end{frame}
 
 \begin{frame}
+解决的几个问题：\\
+分布式拍卖，动态角色切换:\\
+基于竞争对手和拍卖历史，减少通信量\\
+\end{frame}
+
+\begin{frame}
+Future Work\\
 Limit!\\
 Time Limit!\\
 Resource Limit!\\
 Information Limit!\\
 \end{frame}
 
-\begin{frame}
-解决的几个问题：\\
-分布式拍卖，动态角色切换:\\
-基于竞争对手和拍卖历史，减少通信量\\
 
-\end{frame}
 
 \begin{frame}
 \begin{center}
@@ -263,14 +236,6 @@ $Auction=<A,B,C,D,E,F>$
 \end{center}
 \end{frame}
 
-\begin{frame}
-\frametitle{投标策略}
-\end{frame}
-
-\begin{frame}
-我们的投标策略
-具体
-\end{frame}
 
 \section{Dynamic Program}
 
@@ -282,8 +247,10 @@ $Auction=<A,B,C,D,E,F>$
 \includegraphics[height=3.7cm]{pic/question.jpg}
 \end{column}
 \begin{column}{0.45\textwidth}
-问题描述\\
-路径规划问题
+
+\begin{center}
+\textbf{动态路径规划问题}
+\end{center}
 \end{column}
 \end{columns}
 \end{center}
@@ -297,21 +264,29 @@ $Auction=<A,B,C,D,E,F>$
 \begin{center}
 传统的路径搜索\\
 \end{center}
-A Star\\
-另外一种\\
+\begin{itemize}
+  \item DFS BFS
+  \item A Star
+  \item C
+\end{itemize}
+
 \end{frame}
 
 \begin{frame}
-面临的情况\\
+\begin{center}
+\textbf{\Large But}
+\end{center}
+
+\begin{block}{困难}
 复杂的动态环境中\\
-节点众多\\
-计算量大\\
-\end{frame}
-
-\begin{frame}
-改善的方向:\\
+道路节点众多\\
+计算量大、计算周期长\\
+\end{block}
+\pause
+\begin{block}{Done}
 修改启发信息\\
 预计算\\
+\end{block}
 \end{frame}
 
 \begin{frame}
@@ -384,7 +359,7 @@ Google 吴军\\
 
 \begin{frame}
 \begin{center}
-聚类\\
+聚类\\DBN
 解释，流程
 \end{center}
 \end{frame}
@@ -400,7 +375,7 @@ Google 吴军\\
 \end{frame}
 
 \begin{frame}
-计算复杂度，问题域规模
+降低问题域规模
 \end{frame}
 
 \begin{frame}
@@ -408,10 +383,12 @@ Google 吴军\\
 \end{frame}
 
 \begin{frame}
-蚁群算法
+蚁群算法\\
+通过启发信息和信息素共同作用调节蚂蚁的路径选择
 \end{frame}
 
 \begin{frame}
+目前在做的是：\\
 改良的蚁群算法
 \end{frame}
 

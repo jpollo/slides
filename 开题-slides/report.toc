@@ -1,5 +1,5 @@
 \beamer@endinputifotherversion {3.14pt}
 \beamer@sectionintoc {1}{Background}{3}{0}{1}
 \beamer@sectionintoc {2}{Architecture of Agent}{10}{0}{2}
-\beamer@sectionintoc {3}{Task Allocation}{22}{0}{3}
-\beamer@sectionintoc {4}{Dynamic Program}{34}{0}{4}
+\beamer@sectionintoc {3}{Task Allocation}{17}{0}{3}
+\beamer@sectionintoc {4}{Dynamic Program}{26}{0}{4}
