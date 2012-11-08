@@ -61,6 +61,18 @@ RCRSS
 
 \begin{frame}
 \begin{center}
+大型异构多智能体系统\\
+Heteromerous Agents
+\end{center}
+\begin{itemize}
+  \item Police
+  \item Fire
+  \item Ambulance
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\begin{center}
 研究领域\\
 \begin{itemize}
   \item Large Multi-Agent Systems
@@ -73,8 +85,7 @@ RCRSS
 \end{frame}
 
 \begin{frame}
-\frametitle{研究意义}
-研究意义
+研究意义\\
 \end{frame}
 
 \begin{frame}
@@ -85,17 +96,7 @@ RCRSS
     \end{center}
 \end{frame}
 
-\begin{frame}
-\begin{center}
-大型异构多智能体系统\\
-Heteromerous Agents
-\end{center}
-\begin{itemize}
-  \item Police
-  \item Fire
-  \item Ambulance
-\end{itemize}
-\end{frame}
+
 
 \section{Architecture of Agent}
 %%问题描述
@@ -116,10 +117,6 @@ Heteromerous Agents
 \end{column}
 \end{columns}
 \end{center}
-\end{frame}
-
-\begin{frame}
-智能体的体系结构
 \end{frame}
 
 %%%我们的解决方案
@@ -143,12 +140,12 @@ Arch of Agent
 通信受限\\
 信息不完全\\
 信息滞后，带噪声\\
-Decision Support\\
+决策支持\\
+\pause
 \vspace{1cm}
-获取、维护、更新、预测 对象状态\\
+信息融合：获取、维护、更新、预测 对象状态\\
 \end{block}
 \end{frame}
-
 
 \section{Task Allocation}
 %%问题描述
@@ -177,7 +174,7 @@ Decision Support\\
 \end{column}
 \begin{column}{0.7\textwidth}
 \begin{center}
-\Large Auction
+\Large 拍卖
 \end{center}
 \end{column}
 \end{columns}
@@ -185,14 +182,13 @@ Decision Support\\
 
 \begin{frame}
 \begin{block}{Auction}
-\textbf{Definition：}\\
-发生在人类社会中的一种经济现象，卖方制定拍卖规则，买方按照规则出价，最后依据拍卖规则计算出成交的买方与价格，双方达成交易\\
-\vspace{0.5cm}
+\textbf{Definition:}\\
+发生在人类社会中的一种经济现象，卖方制定拍卖规则，买方按照规则出价，最后依据拍卖规则计算出成交的买方与价格，双方达成交易。\\
+\vspace{0.7cm}
 \pause
 \textbf{Advantage:}\\
-拍卖是一种快速有效的资源分配方法，具有较强的可操作性，可使参与拍卖的卖方和买方均获得理想的效用
+拍卖是一种快速有效的资源分配方法，具有较强的可操作性，可使参与拍卖的卖方和买方均获得理想的效用。
 \end{block}
-
 \end{frame}
 
 \begin{frame}
@@ -204,28 +200,17 @@ Decision Support\\
 \end{center}
 \end{frame}
 
-
 \begin{frame}
 \begin{center}
-\begin{exampleblock}{Auction Notion}
+\begin{exampleblock}{Auction Notation}
 $Auction=<A,B,C,D,E,F>$
 \begin{itemize}
   \item A
   \item B
   \item C
-  \item D
 \end{itemize}
 \end{exampleblock}
 \end{center}
-\end{frame}
-
-\begin{frame}
-\begin{alertblock}{In RCRSS}
-Limit!\\
-Time Limit!\\
-Resource Limit!\\
-Information Limit!\\
-\end{alertblock}
 \end{frame}
 
 \begin{frame}
@@ -234,23 +219,30 @@ Information Limit!\\
 基于竞争对手和拍卖历史，减少通信量\\
 \end{frame}
 
+\begin{frame}
+\begin{alertblock}{But}
+Future Work\\
+Limit!\\
+Time Limit!\\
+Resource Limit!\\
+Information Limit!\\
+\end{alertblock}
+\end{frame}
 
 
-
-\section{Dynamic Path Planning}
+\section{Dynamic Program}
 
 %%问题描述
 \begin{frame} \transboxin<1>
 \begin{center}
 \begin{columns}[onlytextwidth]
-\begin{column}{0.3\textwidth}
+\begin{column}{0.45\textwidth}
 \includegraphics[height=3.7cm]{pic/question.jpg}
 \end{column}
-\begin{column}{0.7\textwidth}
+\begin{column}{0.45\textwidth}
 
 \begin{center}
-\Large{How}\\
-动态路径规划
+\textbf{动态路径规划问题}
 \end{center}
 \end{column}
 \end{columns}
@@ -270,7 +262,6 @@ Information Limit!\\
   \item A Star
   \item C
 \end{itemize}
-
 \end{frame}
 
 \begin{frame}
@@ -286,20 +277,15 @@ Disadvantage:\\
 \textbf{\Large But}
 \end{center}
 
-\begin{alertblock}{In RCRSS}
-\begin{itemize}
-  \item 环境复杂且动态变化
-  \item 道路节点众多
-  \item 计算量大、计算周期长
-\end{itemize}
-
-\end{alertblock}
+\begin{block}{In RCRSS}
+环境复杂且动态变化\\
+道路节点众多\\
+计算量大、计算周期长\\
+\end{block}
 \pause
 \begin{block}{Done}
-\begin{itemize}
-\item 针对不同环境、不同的启发信息\\
-\item 预计算\\
-\end{itemize}
+修改启发信息\\
+预计算\\
 \end{block}
 \end{frame}
 
@@ -373,16 +359,8 @@ Google 吴军\\
 
 \begin{frame}
 \begin{center}
-\begin{block}{基于密度聚类的分区}
-DBSCAN\\
-(Density-Based Spatial Clustering of Applications with Noise)
-\end{block}
-\end{center}
-\end{frame}
-
-\begin{frame}
-\begin{center}
-\includegraphics[height=4.5cm]{pic/DBSCAN.png}
+聚类\\DBN
+解释，流程
 \end{center}
 \end{frame}
 
@@ -409,8 +387,6 @@ DBSCAN\\
 通过启发信息和信息素共同作用调节蚂蚁的路径选择
 \end{frame}
 
-
-%%del
 \begin{frame}
 目前在做的是：\\
 改良的蚁群算法
