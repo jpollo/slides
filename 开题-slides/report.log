@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.8)  9 NOV 2012 11:53
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.4)  9 NOV 2012 14:00
 entering extended mode
 **C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/report.tex
 (C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/report.tex
@@ -1532,11 +1532,11 @@ Package pdftex.def Info: pic/logo.png used on input line 317.
 
  <C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/pic/google_logo.jp
 g> <C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/pic/njtoyx.png>]
- <pic/map_demo.png, id=987, 347.04657pt x 391.4625pt>
-File: pic/map_demo.png Graphic file (type png)
+ <pic/map_demo_1.png, id=987, 347.04657pt x 391.4625pt>
+File: pic/map_demo_1.png Graphic file (type png)
 
-<use pic/map_demo.png>
-Package pdftex.def Info: pic/map_demo.png used on input line 338.
+<use pic/map_demo_1.png>
+Package pdftex.def Info: pic/map_demo_1.png used on input line 338.
 (pdftex.def)             Requested size: 151.3453pt x 170.71652pt.
 File: pic/logo.png Graphic file (type png)
  <use pic/logo.png>
@@ -1544,10 +1544,11 @@ Package pdftex.def Info: pic/logo.png used on input line 338.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [34
 
- <C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/pic/map_demo.png>]
-File: pic/map_demo.png Graphic file (type png)
- <use pic/map_demo.png>
-Package pdftex.def Info: pic/map_demo.png used on input line 338.
+ <C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/pic/map_demo_1.png
+>]
+File: pic/map_demo_1.png Graphic file (type png)
+ <use pic/map_demo_1.png>
+Package pdftex.def Info: pic/map_demo_1.png used on input line 338.
 (pdftex.def)             Requested size: 151.3453pt x 170.71652pt.
 File: pic/logo.png Graphic file (type png)
 
@@ -1557,9 +1558,9 @@ Package pdftex.def Info: pic/logo.png used on input line 338.
  [35
 
 ]
-File: pic/map_demo.png Graphic file (type png)
- <use pic/map_demo.png>
-Package pdftex.def Info: pic/map_demo.png used on input line 338.
+File: pic/map_demo_1.png Graphic file (type png)
+ <use pic/map_demo_1.png>
+Package pdftex.def Info: pic/map_demo_1.png used on input line 338.
 (pdftex.def)             Requested size: 151.3453pt x 170.71652pt.
 File: pic/logo.png Graphic file (type png)
  <use pic/logo.png>
@@ -1686,7 +1687,7 @@ Package rerunfilecheck Info: File `report.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  23204 strings out of 495354
- 417608 string characters out of 3183859
+ 417618 string characters out of 3183859
  481603 words of memory out of 3000000
  25669 multiletter control sequences out of 15000+200000
  50415 words of font info for 134 fonts, out of 3000000 for 9000
@@ -1710,7 +1711,7 @@ TeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/h
 elvetic/uhvb8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/CTE
 X/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/he
 lvetic/uhvro8a.pfb>
-Output written on report.pdf (46 pages, 3195085 bytes).
+Output written on report.pdf (46 pages, 3193722 bytes).
 PDF statistics:
  1478 PDF objects out of 1728 (max. 8388607)
  97 named destinations out of 1000 (max. 500000)
