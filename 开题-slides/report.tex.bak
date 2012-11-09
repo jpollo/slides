@@ -16,7 +16,7 @@
 
 \begin{document}
 %% title
-\title{RCRSS中多智能体协作研究}
+\title{RoboCup机器人救援系统中多智能体协作研究}
 \subtitle{开题报告}
 \author{沈 杰}
 \institute[自动化]{南京邮电大学}
@@ -39,17 +39,10 @@
 \vspace{0.35cm}
 RoboCup Rescue Simulation System
 \end{center}
-
 \end{frame}
+
 \begin{frame}
-\begin{center}
-RCRSS
-\end{center}
-\begin{itemize}
-  \item What
-  \item Aim
-  \item Test Bed
-\end{itemize}
+
 \end{frame}
 
 %%% TODO 可以加特效 %%%
@@ -61,7 +54,25 @@ RCRSS
 
 \begin{frame}
 \begin{center}
-研究领域\\
+\end{center}
+    \begin{center}
+        \includegraphics[height=4cm]{pic/rcrss.png}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+\begin{block}{Content}
+模拟xxx\\
+协调警察、救护队、消防队和它们的中心共六种智能体, 在遭受地震后的城市中搜索和救护被掩埋和受伤的市民,并控制火势, 让整个城市的总损失尽量小
+\end{block}
+\begin{exampleblock}{意义}
+为现实生活中的城市救援提供决策支持
+\end{exampleblock}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+Research Domain\\
 \begin{itemize}
   \item Large Multi-Agent Systems
   \item Decision Making Algorithms
@@ -72,13 +83,9 @@ RCRSS
 \end{center}
 \end{frame}
 
-\begin{frame}
-\begin{center}
-\end{center}
-    \begin{center}
-        \includegraphics[height= 6cm]{pic/rcrss.png}
-    \end{center}
-\end{frame}
+
+
+
 
 \begin{frame}
 \begin{center}
@@ -90,29 +97,7 @@ Heteromerous Agents
   \item Fire
   \item Ambulance
 \end{itemize}
-
 \end{frame}
-
-%\begin{frame}
-%\begin{center}
-%Research Area
-%\end{center}
-%\begin{itemize}
-%  \item Large Multi-Agent Systems
-%  \item Decision Making Algorithms
-%  \item Task Allocation Methods
-%  \item Behaviour Modeling
-%  \item \ldots
-%\end{itemize}
-%
-%\end{frame}
-
-%\begin{frame}
-%\begin{center}
-%Main Objectives
-%\end{center}
-%develop, practics, realistic
-%\end{frame}
 
 \section{Architecture of Agent}
 %%问题描述
@@ -135,10 +120,6 @@ Heteromerous Agents
 \end{center}
 \end{frame}
 
-\begin{frame}
-智能体的体系结构
-\end{frame}
-
 %%%我们的解决方案
 \begin{frame}
 \begin{center}
@@ -156,17 +137,20 @@ Arch of Agent
 \end{frame}
 
 \begin{frame}
-\begin{block}{Our Points}
-信息融合：获取、维护、更新、预测 对象状态\\
+\begin{block}{信息融合}
+通信受限\\
+信息不完全\\
+信息滞后，带噪声\\
+Decision Support\\
+\vspace{1cm}
+获取、维护、更新、预测 对象状态\\
 \end{block}
 \end{frame}
 
 \begin{frame}
-通信受限\\
-信息不完全\\
-信息滞后，带噪声\\
-Decision Support
+How
 \end{frame}
+
 
 \section{Task Allocation}
 %%问题描述
@@ -187,17 +171,27 @@ Decision Support
 
 %%%我们的解决方案
 \begin{frame}
+\begin{columns}[onlytextwidth]
+\begin{column}{0.3\textwidth}
 \begin{center}
 \includegraphics[height=4cm]{pic/solution.jpg}
 \end{center}
+\end{column}
+\begin{column}{0.7\textwidth}
+\begin{center}
+\Large Auction
+\end{center}
+\end{column}
+\end{columns}
 \end{frame}
 
 \begin{frame}
-\begin{block}{拍卖}
+\begin{block}{Auction}
+\textbf{Definition：}\\
 发生在人类社会中的一种经济现象，卖方制定拍卖规则，买方按照规则出价，最后依据拍卖规则计算出成交的买方与价格，双方达成交易\\
-\vspace{0.7cm}
+\vspace{0.5cm}
 \pause
-\textbf{优点:}\\
+\textbf{Advantage:}\\
 拍卖是一种快速有效的资源分配方法，具有较强的可操作性，可使参与拍卖的卖方和买方均获得理想的效用
 \end{block}
 
@@ -205,7 +199,7 @@ Decision Support
 
 \begin{frame}
 \begin{center}
-\textbf{Auction Framework}
+\textbf{General Auction Framework}
 \end{center}
 \begin{center}
 \includegraphics[height=6cm]{pic/frame_auction.png}
@@ -215,10 +209,25 @@ Decision Support
 
 \begin{frame}
 \begin{center}
-Auction Notion\\
-\vspace{1.5cm}
+\begin{exampleblock}{Auction Notion}
 $Auction=<A,B,C,D,E,F>$
+\begin{itemize}
+  \item A
+  \item B
+  \item C
+  \item D
+\end{itemize}
+\end{exampleblock}
 \end{center}
+\end{frame}
+
+\begin{frame}
+\begin{alertblock}{In RCRSS}
+Limit!\\
+Time Limit!\\
+Resource Limit!\\
+Information Limit!\\
+\end{alertblock}
 \end{frame}
 
 \begin{frame}
@@ -227,31 +236,23 @@ $Auction=<A,B,C,D,E,F>$
 基于竞争对手和拍卖历史，减少通信量\\
 \end{frame}
 
-\begin{frame}
-Future Work\\
-Limit!\\
-Time Limit!\\
-Resource Limit!\\
-Information Limit!\\
-\end{frame}
 
 
 
-
-
-\section{Dynamic Program}
+\section{Dynamic Path Planning}
 
 %%问题描述
 \begin{frame} \transboxin<1>
 \begin{center}
 \begin{columns}[onlytextwidth]
-\begin{column}{0.45\textwidth}
+\begin{column}{0.3\textwidth}
 \includegraphics[height=3.7cm]{pic/question.jpg}
 \end{column}
-\begin{column}{0.45\textwidth}
+\begin{column}{0.7\textwidth}
 
 \begin{center}
-\textbf{动态路径规划问题}
+\Large{How}\\
+动态路径规划
 \end{center}
 \end{column}
 \end{columns}
@@ -267,11 +268,18 @@ Information Limit!\\
 传统的路径搜索\\
 \end{center}
 \begin{itemize}
-  \item DFS BFS
+  \item DFS、BFS
   \item A Star
-  \item C
+  \item 深度有限、双向搜索。。。
 \end{itemize}
+\end{frame}
 
+\begin{frame}
+Advantage:\\
+结构简单，运算简单\\
+对静态地图有良好的效果\\
+Disadvantage:\\
+无法较好的适应动态环境
 \end{frame}
 
 \begin{frame}
@@ -279,15 +287,20 @@ Information Limit!\\
 \textbf{\Large But}
 \end{center}
 
-\begin{block}{困难}
-复杂的动态环境中\\
-道路节点众多\\
-计算量大、计算周期长\\
-\end{block}
+\begin{alertblock}{In RCRSS}
+\begin{itemize}
+  \item 环境复杂且动态变化
+  \item 道路节点众多
+  \item 计算量大、计算周期长
+\end{itemize}
+
+\end{alertblock}
 \pause
 \begin{block}{Done}
-修改启发信息\\
-预计算\\
+\begin{itemize}
+\item 针对不同环境、不同的启发信息\\
+\item 预计算\\
+\end{itemize}
 \end{block}
 \end{frame}
 
@@ -300,26 +313,8 @@ Information Limit!\\
 \end{column}
 \begin{column}{0.8\textwidth}
 \begin{center}
-From 南邮 to 玄武湖\\
-\vspace{0.4cm}
-\includegraphics[height=4cm]{pic/google_map.png}
+\includegraphics[height=6cm]{pic/njtoyx.png}
 \end{center}
-\end{column}
-\end{columns}
-\end{frame}
-
-\begin{frame}
-\begin{columns}[onlytextwidth]
-\begin{column}{0.45\textwidth}
-\begin{center}
-\includegraphics[height=4.5cm]{pic/wujun.jpg}\\
-\vspace{0.35cm}
-Google 吴军\\
-\end{center}
-\end{column}
-\begin{column}{0.45\textwidth}
-地图和本地搜索\\
-有限状态机和动态规划\\
 \end{column}
 \end{columns}
 \end{frame}
@@ -329,7 +324,7 @@ Google 吴军\\
    \begin{columns}[onlytextwidth]
         \begin{column}{0.7\textwidth}
             \begin{center}
-                \includegraphics[height=5cm]{pic/map_demo.jpg}
+                \includegraphics[height=5cm]{pic/njtoyx.png}
             \end{center}
         \end{column}
         \begin{column}{0.3\textwidth}
@@ -361,9 +356,23 @@ Google 吴军\\
 
 \begin{frame}
 \begin{center}
-聚类\\DBN
-解释，流程
+\begin{block}{基于密度聚类的分区}
+DBSCAN\\
+(Density-Based Spatial Clustering of Applications with Noise)
+\end{block}
 \end{center}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+\includegraphics[height=4.5cm]{pic/DBSCAN.png}
+\end{center}
+\end{frame}
+
+\begin{frame}
+Advantage:\\
+对噪声不敏感\\
+能发现任意形状的簇
 \end{frame}
 
 \begin{frame}
@@ -376,9 +385,6 @@ Google 吴军\\
 \end{center}
 \end{frame}
 
-\begin{frame}
-降低问题域规模
-\end{frame}
 
 \begin{frame}
 蚁群算法概述
@@ -389,9 +395,14 @@ Google 吴军\\
 通过启发信息和信息素共同作用调节蚂蚁的路径选择
 \end{frame}
 
+%%del
 \begin{frame}
 目前在做的是：\\
 改良的蚁群算法
+\end{frame}
+
+\begin{frame}
+可能遇到的问题\\
 \end{frame}
 
 \begin{frame}

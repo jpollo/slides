@@ -16,7 +16,7 @@
 
 \begin{document}
 %% title
-\title{机器人救援系统中多智能体协作研究}
+\title{RoboCup机器人救援系统中多智能体协作研究}
 \subtitle{开题报告}
 \author{沈 杰}
 \institute[自动化]{南京邮电大学}
@@ -36,20 +36,14 @@
 \begin{frame}
 \begin{center}
 \textbf{RCRSS}\\
-\vspace{0.35cm}
-RoboCup Rescue Simulation System
+\vspace{0.15cm}
+RoboCup 机器人救援
 \end{center}
-
-\end{frame}
-\begin{frame}
-\begin{center}
-RCRSS
-\end{center}
-\begin{itemize}
-  \item What
-  \item Aim
-  \item Test Bed
-\end{itemize}
+\begin{block}{}
+日本地震\\
+RoboCup计划\\
+近年来参与度 Iran Japan China
+\end{block}
 \end{frame}
 
 %%% TODO 可以加特效 %%%
@@ -58,10 +52,27 @@ RCRSS
 \includegraphics[height=4.6cm]{pic/city.png}
 \end{center}
 \end{frame}
+\begin{frame}
+\begin{center}
+\end{center}
+    \begin{center}
+        \includegraphics[height=4cm]{pic/rcrss.png}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+\begin{block}{}
+模拟灾难城市（Disaster City）\\
+协调警察、救护队、消防队和它们的中心共六种智能体, 在遭受地震后的城市中搜索和救护被掩埋和受伤的市民,并控制火势, 保护人民的生命财产安全
+\end{block}
+\begin{exampleblock}{意义}
+为现实生活中的城市救援提供决策支持
+\end{exampleblock}
+\end{frame}
 
 \begin{frame}
 \begin{center}
-研究领域\\
+Research Domain\\
 \begin{itemize}
   \item Large Multi-Agent Systems
   \item Decision Making Algorithms
@@ -70,19 +81,6 @@ RCRSS
   \item \ldots
 \end{itemize}
 \end{center}
-\end{frame}
-
-\begin{frame}
-\frametitle{研究意义}
-研究意义
-\end{frame}
-
-\begin{frame}
-\begin{center}
-\end{center}
-    \begin{center}
-        \includegraphics[height= 6cm]{pic/rcrss.png}
-    \end{center}
 \end{frame}
 
 \begin{frame}
@@ -118,10 +116,6 @@ Heteromerous Agents
 \end{center}
 \end{frame}
 
-\begin{frame}
-智能体的体系结构
-\end{frame}
-
 %%%我们的解决方案
 \begin{frame}
 \begin{center}
@@ -149,6 +143,13 @@ Decision Support\\
 \end{block}
 \end{frame}
 
+\begin{frame}
+How
+\end{frame}
+
+\begin{frame}
+所做的改进\\
+\end{frame}
 
 \section{Task Allocation}
 %%问题描述
@@ -192,7 +193,6 @@ Decision Support\\
 \textbf{Advantage:}\\
 拍卖是一种快速有效的资源分配方法，具有较强的可操作性，可使参与拍卖的卖方和买方均获得理想的效用
 \end{block}
-
 \end{frame}
 
 \begin{frame}
@@ -203,7 +203,6 @@ Decision Support\\
 \includegraphics[height=6cm]{pic/frame_auction.png}
 \end{center}
 \end{frame}
-
 
 \begin{frame}
 \begin{center}
@@ -221,21 +220,21 @@ $Auction=<A,B,C,D,E,F>$
 
 \begin{frame}
 \begin{alertblock}{In RCRSS}
-Limit!\\
+各种Limit!\\
 Time Limit!\\
 Resource Limit!\\
 Information Limit!\\
+智能体数量众多\\
 \end{alertblock}
 \end{frame}
 
 \begin{frame}
-解决的几个问题：\\
-分布式拍卖，动态角色切换:\\
+\begin{block}{改进}
+分布式拍卖\\
+动态角色切换\\
 基于竞争对手和拍卖历史，减少通信量\\
+\end{block}
 \end{frame}
-
-
-
 
 \section{Dynamic Path Planning}
 
@@ -266,19 +265,18 @@ Information Limit!\\
 传统的路径搜索\\
 \end{center}
 \begin{itemize}
-  \item DFS BFS
-  \item A Star
-  \item C
+  \item DFS、BFS
+  \item A星 D星
+  \item 深度有限、双向搜索。。。
 \end{itemize}
-
 \end{frame}
 
 \begin{frame}
 Advantage:\\
-简单，快\\
-对静态地图\\
+结构简单，运算简单\\
+对静态地图有良好的效果\\
 Disadvantage:\\
-对动态地图无法较好处理
+无法较好的适应动态环境
 \end{frame}
 
 \begin{frame}
@@ -312,26 +310,8 @@ Disadvantage:\\
 \end{column}
 \begin{column}{0.8\textwidth}
 \begin{center}
-From 南邮 to 玄武湖\\
-\vspace{0.4cm}
-\includegraphics[height=4cm]{pic/google_map.png}
+\includegraphics[height=6cm]{pic/njtoyx.png}
 \end{center}
-\end{column}
-\end{columns}
-\end{frame}
-
-\begin{frame}
-\begin{columns}[onlytextwidth]
-\begin{column}{0.45\textwidth}
-\begin{center}
-\includegraphics[height=4.5cm]{pic/wujun.jpg}\\
-\vspace{0.35cm}
-Google 吴军\\
-\end{center}
-\end{column}
-\begin{column}{0.45\textwidth}
-地图和本地搜索\\
-有限状态机和动态规划\\
 \end{column}
 \end{columns}
 \end{frame}
@@ -339,15 +319,16 @@ Google 吴军\\
 %%书上例子
 \begin{frame}
    \begin{columns}[onlytextwidth]
-        \begin{column}{0.7\textwidth}
+        \begin{column}{0.6\textwidth}
             \begin{center}
-                \includegraphics[height=5cm]{pic/map_demo.jpg}
+                \includegraphics[height=6cm]{pic/map_demo.png}
             \end{center}
         \end{column}
-        \begin{column}{0.3\textwidth}
+        \begin{column}{0.4\textwidth}
             \begin{center}
-            计算量比较\\
-            \vspace{2cm}
+            \pause
+            \textbf{计算量比较}\\
+            \vspace{0.5cm}
             \pause
             动态规划:$10\times10\times15$ \\
             Other:$10^{15}$
@@ -387,6 +368,20 @@ DBSCAN\\
 \end{frame}
 
 \begin{frame}
+Advantage:\\
+不需要预先指定簇的个数\\
+对噪声不敏感\\
+能发现任意形状的簇\\
+Disadvantage:\\
+a\\
+b\\
+\end{frame}
+
+\begin{frame}
+对DBSCAN聚类的改进
+\end{frame}
+
+\begin{frame}
 \begin{center}
 聚类效果图\\
 \vspace{1cm}
@@ -396,9 +391,6 @@ DBSCAN\\
 \end{center}
 \end{frame}
 
-\begin{frame}
-降低问题域规模
-\end{frame}
 
 \begin{frame}
 蚁群算法概述
@@ -409,12 +401,11 @@ DBSCAN\\
 通过启发信息和信息素共同作用调节蚂蚁的路径选择
 \end{frame}
 
-
 %%del
 \begin{frame}
-目前在做的是：\\
-改良的蚁群算法
+对蚁群算法做出的改进：\\
 \end{frame}
+
 
 \begin{frame}
 \begin{center}
