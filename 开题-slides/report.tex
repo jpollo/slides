@@ -1,4 +1,5 @@
 \documentclass{beamer}
+\usepackage{bbding}
 \usepackage[space,noindent]{ctex}
 \usepackage{times}
 \usepackage{sidecap}
@@ -33,21 +34,12 @@
 \end{frame}
 
 \section{Background}
-\begin{frame}
-\begin{center}
-\textbf{RCRSS}\\
-\vspace{0.15cm}
-RoboCup 机器人救援
-\end{center}
-\begin{block}{}
-日本地震\\
-RoboCup计划\\
-近年来参与度 Iran Japan China
-\end{block}
-\end{frame}
 
 %%% TODO 可以加特效 %%%
 \begin{frame}
+\begin{center}
+RoboCup 机器人救援
+\end{center}
 \begin{center}
 \includegraphics[height=4.6cm]{pic/city.png}
 \end{center}
@@ -60,40 +52,35 @@ RoboCup计划\\
     \end{center}
 \end{frame}
 
-\begin{frame}
-\begin{block}{}
-模拟灾难城市（Disaster City）\\
-协调警察、救护队、消防队和它们的中心共六种智能体, 在遭受地震后的城市中搜索和救护被掩埋和受伤的市民,并控制火势, 保护人民的生命财产安全
-\end{block}
-\begin{exampleblock}{意义}
-为现实生活中的城市救援提供决策支持
-\end{exampleblock}
-\end{frame}
+%\begin{frame}
+%\begin{block}{}
+%模拟灾难城市（Disaster City）\\
+%协调警察、救护队、消防队和它们的中心共六种智能体, 在遭受地震后的城市中搜索和救护被掩埋和受伤的市民,并控制火势, 保护人民的生命财产安全
+%\end{block}
+%\begin{exampleblock}{意义}
+%为现实生活中的城市救援提供决策支持
+%\end{exampleblock}
+%\end{frame}
 
-\begin{frame}
-\begin{center}
-Research Domain\\
-\begin{itemize}
-  \item Large Multi-Agent Systems
-  \item Decision Making Algorithms
-  \item Task Allocation Methods
-  \item Behaviour Modeling
-  \item \ldots
-\end{itemize}
-\end{center}
-\end{frame}
+%\begin{frame}
+%\begin{center}
+%Research Domain\\
+%\begin{itemize}
+%  \item Large Multi-Agent Systems
+%  \item Decision Making Algorithms
+%  \item Task Allocation Methods
+%  \item Behaviour Modeling
+%  \item \ldots
+%\end{itemize}
+%\end{center}
+%\end{frame}
 
-\begin{frame}
-\begin{center}
-大型异构多智能体系统\\
-Heteromerous Agents
-\end{center}
-\begin{itemize}
-  \item Police
-  \item Fire
-  \item Ambulance
-\end{itemize}
-\end{frame}
+%\begin{frame}
+%In My Opinion:\\
+%大型异构多智能体系统\\
+%Emergency Descision\\
+%茫茫多\\
+%\end{frame}
 
 \section{Architecture of Agent}
 %%问题描述
@@ -104,7 +91,6 @@ Heteromerous Agents
 \includegraphics[height=3.7cm]{pic/question.jpg}
 \end{column}
 \begin{column}{0.45\textwidth}
-
 {\Large How}\\
 \begin{itemize}
   \item 智能体体系结构的建立\\
@@ -151,6 +137,7 @@ How
 所做的改进\\
 \end{frame}
 
+
 \section{Task Allocation}
 %%问题描述
 \begin{frame} \transboxin<1>
@@ -188,6 +175,7 @@ How
 \begin{block}{Auction}
 \textbf{Definition：}\\
 发生在人类社会中的一种经济现象，卖方制定拍卖规则，买方按照规则出价，最后依据拍卖规则计算出成交的买方与价格，双方达成交易\\
+传统的拍卖算法：\\
 \vspace{0.5cm}
 \pause
 \textbf{Advantage:}\\
@@ -200,23 +188,27 @@ How
 \textbf{General Auction Framework}
 \end{center}
 \begin{center}
-\includegraphics[height=6cm]{pic/frame_auction.png}
+\includegraphics[height=5cm]{pic/auction.png}
 \end{center}
 \end{frame}
 
 \begin{frame}
-\begin{center}
-\begin{exampleblock}{Auction Notion}
-$Auction=<A,B,C,D,E,F>$
-\begin{itemize}
-  \item A
-  \item B
-  \item C
-  \item D
-\end{itemize}
-\end{exampleblock}
-\end{center}
+拍卖与竞拍 流程
 \end{frame}
+
+%\begin{frame}
+%\begin{center}
+%\begin{exampleblock}{Auction Notion}
+%$Auction=<A,B,C,D,E,H>$
+%\begin{itemize}
+%  \item A
+%  \item B
+%  \item C
+%  \item D
+%\end{itemize}
+%\end{exampleblock}
+%\end{center}
+%\end{frame}
 
 \begin{frame}
 \begin{alertblock}{In RCRSS}
@@ -226,13 +218,16 @@ Resource Limit!\\
 Information Limit!\\
 智能体数量众多\\
 \end{alertblock}
+传统的拍卖算法????\\
+英国式、荷兰式、多属性\\
 \end{frame}
 
 \begin{frame}
-\begin{block}{改进}
+\begin{block}{对传统拍卖算法的改进}
 分布式拍卖\\
 动态角色切换\\
 基于竞争对手和拍卖历史，减少通信量\\
+对已分配方案的动态调整\\
 \end{block}
 \end{frame}
 
@@ -257,7 +252,8 @@ Information Limit!\\
 \end{frame}
 
 \begin{frame}
-动态路径规划
+动态路径规划\\
+寻求安全与快速的平衡\\
 \end{frame}
 
 \begin{frame}
@@ -267,7 +263,7 @@ Information Limit!\\
 \begin{itemize}
   \item DFS、BFS
   \item A星 D星
-  \item 深度有限、双向搜索。。。
+  \item (改进)深度有限、双向搜索 等
 \end{itemize}
 \end{frame}
 
@@ -300,42 +296,42 @@ Disadvantage:\\
 \end{itemize}
 \end{block}
 \end{frame}
-
-\begin{frame}
-\begin{columns}[onlytextwidth]
-\begin{column}{0.2\textwidth}
-\begin{center}
-\includegraphics[height=1.5cm]{pic/google_logo.jpg}
-\end{center}
-\end{column}
-\begin{column}{0.8\textwidth}
-\begin{center}
-\includegraphics[height=6cm]{pic/njtoyx.png}
-\end{center}
-\end{column}
-\end{columns}
-\end{frame}
-
-%%书上例子
-\begin{frame}
-   \begin{columns}[onlytextwidth]
-        \begin{column}{0.6\textwidth}
-            \begin{center}
-                \includegraphics[height=6cm]{pic/map_demo_1.png}
-            \end{center}
-        \end{column}
-        \begin{column}{0.4\textwidth}
-            \begin{center}
-            \pause
-            \textbf{计算量比较}\\
-            \vspace{0.5cm}
-            \pause
-            动态规划:$10\times10\times15$ \\
-            Other:$10^{15}$
-            \end{center}
-        \end{column}
-    \end{columns}
-\end{frame}
+%
+%\begin{frame}
+%\begin{columns}[onlytextwidth]
+%\begin{column}{0.2\textwidth}
+%\begin{center}
+%\includegraphics[height=1.5cm]{pic/google_logo.jpg}
+%\end{center}
+%\end{column}
+%\begin{column}{0.8\textwidth}
+%\begin{center}
+%\includegraphics[height=6cm]{pic/njtoyx.png}
+%\end{center}
+%\end{column}
+%\end{columns}
+%\end{frame}
+%
+%%%书上例子
+%\begin{frame}
+%   \begin{columns}[onlytextwidth]
+%        \begin{column}{0.6\textwidth}
+%            \begin{center}
+%                \includegraphics[height=6cm]{pic/map_demo_1.png}
+%            \end{center}
+%        \end{column}
+%        \begin{column}{0.4\textwidth}
+%            \begin{center}
+%            \pause
+%            \textbf{计算量比较}\\
+%            \vspace{0.5cm}
+%            \pause
+%            动态规划:$10\times10\times15$ \\
+%            Other:$10^{15}$
+%            \end{center}
+%        \end{column}
+%    \end{columns}
+%\end{frame}
 
 
 %%%我们的解决方案
@@ -350,6 +346,19 @@ Disadvantage:\\
 聚类、蚁群、动态规划
 \end{column}
 \end{columns}
+\end{frame}
+
+\begin{frame}
+分区
+%\renewcommand{\labelitem}{\PencilRight}
+\begin{itemize}
+  \item Why？
+%区域性
+  \item How？
+%DBSCAN
+\end{itemize}
+
+
 \end{frame}
 
 \begin{frame}
@@ -368,17 +377,28 @@ DBSCAN\\
 \end{frame}
 
 \begin{frame}
+\begin{block}{}
 Advantage:\\
-不需要预先指定簇的个数\\
+增量式，无需指定簇个数(VS K-means)\\
 对噪声不敏感\\
 能发现任意形状的簇\\
+\end{block}
+\begin{alertblock}{}
 Disadvantage:\\
-a\\
-b\\
+数据量较大时，要求较大的内存支持和运算时间\\
+空间密度不均匀时，聚类质量较差
+\end{alertblock}
+
 \end{frame}
 
 \begin{frame}
-对DBSCAN聚类的改进
+对DBSCAN的改进\\
+参数处理\\\begin{itemize}
+        \item 经验
+        \item 评价函数、学习
+        \item 核聚类(非线性变换，分布均匀)
+      \end{itemize}
+并行化\\
 \end{frame}
 
 \begin{frame}
@@ -393,19 +413,33 @@ b\\
 
 
 \begin{frame}
-蚁群算法概述
+蚁群算法概述\\\
+
 \end{frame}
 
 \begin{frame}
 蚁群算法\\
-通过启发信息和信息素共同作用调节蚂蚁的路径选择
+解决道路环境信息未知情况下的实时路径优化\\
+通过启发信息和信息素共同作用调节蚂蚁的路径选择\\
+\end{frame}
+
+\begin{frame}
+流程\\
+
 \end{frame}
 
 %%del
 \begin{frame}
+需要解决的问题: \\
 对蚁群算法做出的改进：\\
+启发信息:\\
+通过全局信息建立目标吸引函数，对蚂蚁在复杂动态环境下的路径搜索进行引导，
+提高其选择里目标节点更近以及更安全的邻节点的概率。\\
+信息素更新：\\
+评估选择路径，对优秀路径额外增强\\
+难点：\\
+随机性、收敛速度、局部最优\\
 \end{frame}
-
 
 \begin{frame}
 \begin{center}
