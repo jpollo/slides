@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.4)  13 NOV 2012 21:34
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.4)  26 NOV 2012 22:00
 entering extended mode
 **C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/report.tex
 (C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/report.tex
@@ -1188,17 +1188,20 @@ File: c19rm.fd 2007/05/06 v0.8a ctex font definition file
 )
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 23.
+(hyperref)                setting the option has no effect on input line 25.
 
 LaTeX Font Info:    Try loading font information for C19+zhsong on input line 3
-1.
+3.
 (C:\CTEX\MiKTeX\tex\latex\zhmetrics\c19zhsong.fd
 File: c19zhsong.fd 2009/09/23 4.8.2
 )
+Package CJKpunct Info: punctuation spaces for family 'zhsong' do not exist. Use
+ family 'def' instead. on input line 33.
+
 <pic/logo.png, id=31, 198.7425pt x 113.42375pt>
 File: pic/logo.png Graphic file (type png)
  <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 31.
+Package pdftex.def Info: pic/logo.png used on input line 33.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [1
 
@@ -1207,7 +1210,7 @@ Package pdftex.def Info: pic/logo.png used on input line 31.
 File: pic/logo.png Graphic file (type png)
 
 <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 35.
+Package pdftex.def Info: pic/logo.png used on input line 37.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [2
 
@@ -1216,267 +1219,271 @@ Package pdftex.def Info: pic/logo.png used on input line 35.
 File: pic/logo.png Graphic file (type png)
 
 <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 37.
+Package pdftex.def Info: pic/logo.png used on input line 39.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [3
 
-] <pic/city.png, id=150, 819.06pt x 313.17pt>
-File: pic/city.png Graphic file (type png)
-
-<use pic/city.png>
-Package pdftex.def Info: pic/city.png used on input line 47.
-(pdftex.def)             Requested size: 342.31564pt x 130.88284pt.
+]
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 58.
 File: pic/logo.png Graphic file (type png)
  <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 47.
+Package pdftex.def Info: pic/logo.png used on input line 58.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [4
 
- <C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/pic/city.png>]
-<pic/rcrss.png, id=179, 534.49687pt x 234.1247pt>
-File: pic/rcrss.png Graphic file (type png)
- <use pic/rcrss.png>
-Package pdftex.def Info: pic/rcrss.png used on input line 54.
-(pdftex.def)             Requested size: 259.82603pt x 113.81102pt.
+]
+<pic/city.png, id=186, 819.06pt x 313.17pt>
+File: pic/city.png Graphic file (type png)
+ <use pic/city.png>
+Package pdftex.def Info: pic/city.png used on input line 69.
+(pdftex.def)             Requested size: 342.31564pt x 130.88284pt.
 File: pic/logo.png Graphic file (type png)
 
 <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 54.
+Package pdftex.def Info: pic/logo.png used on input line 69.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [5
 
- <C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/pic/rcrss.png>]
+ <C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/pic/city.png>]
 File: pic/logo.png Graphic file (type png)
  <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 62.
+Package pdftex.def Info: pic/logo.png used on input line 80.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [6
-
-]
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 82.
-Package CJKpunct Info: punctuation spaces for family 'zhsong' do not exist. Use
- family 'def' instead. on input line 82.
-File: pic/logo.png Graphic file (type png)
- <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 82.
-(pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
- [7
 
 ]
 (C:\Users\Jasonllinux\Documents\GitHub\slides\开题-slides\report.toc)
 File: pic/logo.png Graphic file (type png)
 
 <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 113.
+Package pdftex.def Info: pic/logo.png used on input line 97.
+(pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
+ [7
+
+]
+File: pic/logo.png Graphic file (type png)
+ <use pic/logo.png>
+Package pdftex.def Info: pic/logo.png used on input line 128.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [8
 
-] <pic/question.jpg, id=300, 348.30125pt x 347.2975pt>
-File: pic/question.jpg Graphic file (type jpg)
+]
+File: pic/logo.png Graphic file (type png)
+ <use pic/logo.png>
+Package pdftex.def Info: pic/logo.png used on input line 128.
+(pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
+ [9
 
-<use pic/question.jpg>
-Package pdftex.def Info: pic/question.jpg used on input line 131.
-(pdftex.def)             Requested size: 105.58067pt x 105.2751pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 131.
+]
+File: pic/logo.png Graphic file (type png)
+
+<use pic/logo.png>
+Package pdftex.def Info: pic/logo.png used on input line 128.
+(pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
+ [10
+
+] <pic/MAS.png, id=355, 502.12593pt x 430.60875pt>
+File: pic/MAS.png Graphic file (type png)
+
+<use pic/MAS.png>
+Package pdftex.def Info: pic/MAS.png used on input line 164.
+(pdftex.def)             Requested size: 165.89362pt x 142.26378pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 164.
  (C:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 131.
+LaTeX Font Info:    Try loading font information for U+msb on input line 164.
 
 (C:\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 131.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 164.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 131.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 164.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 131.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 164.
 File: pic/logo.png Graphic file (type png)
  <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 131.
-(pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
- [9
-
- <C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/pic/question.jpg>]
-
-<pic/solution.jpg, id=330, 2226.3175pt x 2224.31pt>
-File: pic/solution.jpg Graphic file (type jpg)
- <use pic/solution.jpg>
-Package pdftex.def Info: pic/solution.jpg used on input line 138.
-(pdftex.def)             Requested size: 113.90417pt x 113.81102pt.
-File: pic/logo.png Graphic file (type png)
-
-<use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 138.
-(pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
- [10
-
- <C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/pic/solution.jpg>]
- <pic/arch.png, id=357, 716.6775pt x 453.94594pt>
-File: pic/arch.png Graphic file (type png)
-
-<use pic/arch.png>
-Package pdftex.def Info: pic/arch.png used on input line 147.
-(pdftex.def)             Requested size: 247.05716pt x 156.49014pt.
-File: pic/logo.png Graphic file (type png)
- <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 147.
+Package pdftex.def Info: pic/logo.png used on input line 164.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [11
 
- <C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/pic/arch.png>]
-File: pic/logo.png Graphic file (type png)
- <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 158.
-(pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
- [12
-
-]
+ <C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/pic/MAS.png>]
+<pic/hmm_shiyi.png, id=385, 536.0025pt x 264.23718pt>
+File: pic/hmm_shiyi.png Graphic file (type png)
+ <use pic/hmm_shiyi.png>
+Package pdftex.def Info: pic/hmm_shiyi.png used on input line 189.
+(pdftex.def)             Requested size: 259.72371pt x 128.0374pt.
 File: pic/logo.png Graphic file (type png)
 
 <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 162.
+Package pdftex.def Info: pic/logo.png used on input line 189.
+(pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
+ [12
+
+ <C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/pic/hmm_shiyi.png>
+]
+(C:\Users\Jasonllinux\Documents\GitHub\slides\开题-slides\report.toc)
+File: pic/logo.png Graphic file (type png)
+
+<use pic/logo.png>
+Package pdftex.def Info: pic/logo.png used on input line 198.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [13
 
-]
+] <pic/auction_shiyi.png, id=443, 855.195pt x 469.755pt>
+File: pic/auction_shiyi.png Graphic file (type png)
+
+<use pic/auction_shiyi.png>
+Package pdftex.def Info: pic/auction_shiyi.png used on input line 236.
+(pdftex.def)             Requested size: 207.19533pt x 113.81102pt.
 File: pic/logo.png Graphic file (type png)
  <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 166.
+Package pdftex.def Info: pic/logo.png used on input line 236.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [14
+
+ <C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/pic/auction_shiyi.
+png>]
+<pic/auction.png, id=471, 343.2825pt x 313.9228pt>
+File: pic/auction.png Graphic file (type png)
+ <use pic/auction.png>
+Package pdftex.def Info: pic/auction.png used on input line 260.
+(pdftex.def)             Requested size: 155.5652pt x 142.26378pt.
+
+Overfull \hbox (1.53337pt too wide) in paragraph at lines 260--260
+ [] 
+ []
+
+File: pic/logo.png Graphic file (type png)
+<use pic/logo.png>
+Package pdftex.def Info: pic/logo.png used on input line 260.
+(pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
+ [15
+
+ <C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/pic/auction.png>] 
+<pic/at1.png, id=500, 393.72093pt x 389.20406pt>
+File: pic/at1.png Graphic file (type png)
+
+<use pic/at1.png>
+Package pdftex.def Info: pic/at1.png used on input line 283.
+(pdftex.def)             Requested size: 143.92021pt x 142.26378pt.
+ <pic/fire1.png, id=501, 917.4275pt x 825.0825pt>
+File: pic/fire1.png Graphic file (type png)
+
+<use pic/fire1.png>
+Package pdftex.def Info: pic/fire1.png used on input line 283.
+(pdftex.def)             Requested size: 158.18642pt x 142.26378pt.
+File: pic/logo.png Graphic file (type png)
+ <use pic/logo.png>
+Package pdftex.def Info: pic/logo.png used on input line 283.
+(pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
+ [16
+
+ <C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/pic/at1.png> <C:/U
+sers/Jasonllinux/Documents/GitHub/slides/开题-slides/pic/fire1.png>]
+File: pic/logo.png Graphic file (type png)
+ <use pic/logo.png>
+Package pdftex.def Info: pic/logo.png used on input line 295.
+(pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
+ [17
 
 ]
 (C:\Users\Jasonllinux\Documents\GitHub\slides\开题-slides\report.toc)
 File: pic/logo.png Graphic file (type png)
 
 <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 169.
-(pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
- [15
-
-]
-File: pic/question.jpg Graphic file (type jpg)
- <use pic/question.jpg>
-Package pdftex.def Info: pic/question.jpg used on input line 184.
-(pdftex.def)             Requested size: 105.58067pt x 105.2751pt.
-File: pic/logo.png Graphic file (type png)
- <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 184.
-(pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
- [16
-
-]
-File: pic/solution.jpg Graphic file (type jpg)
-
-<use pic/solution.jpg>
-Package pdftex.def Info: pic/solution.jpg used on input line 200.
-(pdftex.def)             Requested size: 113.90417pt x 113.81102pt.
-
-Overfull \hbox (11.21455pt too wide) in paragraph at lines 200--200
- [] 
- []
-
-File: pic/logo.png Graphic file (type png)
-<use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 200.
-(pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
- [17
-
-]
-File: pic/logo.png Graphic file (type png)
- <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 206.
+Package pdftex.def Info: pic/logo.png used on input line 306.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [18
 
 ]
 File: pic/logo.png Graphic file (type png)
  <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 218.
+Package pdftex.def Info: pic/logo.png used on input line 358.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [19
 
 ]
+<pic/ant.png, id=614, 744.53156pt x 561.59813pt>
+File: pic/ant.png Graphic file (type png)
+ <use pic/ant.png>
+Package pdftex.def Info: pic/ant.png used on input line 381.
+(pdftex.def)             Requested size: 245.18494pt x 184.9429pt.
 File: pic/logo.png Graphic file (type png)
 
 <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 218.
+Package pdftex.def Info: pic/logo.png used on input line 381.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [20
 
-] <pic/auction.png, id=632, 343.2825pt x 313.9228pt>
-File: pic/auction.png Graphic file (type png)
+ <C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/pic/ant.png>] <pic
+/DBSCAN.png, id=642, 401.5pt x 289.08pt>
+File: pic/DBSCAN.png Graphic file (type png)
 
-<use pic/auction.png>
-Package pdftex.def Info: pic/auction.png used on input line 227.
-(pdftex.def)             Requested size: 155.5652pt x 142.26378pt.
+<use pic/DBSCAN.png>
+Package pdftex.def Info: pic/DBSCAN.png used on input line 406.
+(pdftex.def)             Requested size: 142.26086pt x 102.43008pt.
 File: pic/logo.png Graphic file (type png)
  <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 227.
+Package pdftex.def Info: pic/logo.png used on input line 406.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [21
 
- <C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/pic/auction.png>]
+ <C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/pic/DBSCAN.png>]
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <14.4> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 447.
+LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <14.4> not available
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 447.
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <14.4> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 447.
 File: pic/logo.png Graphic file (type png)
  <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 231.
+Package pdftex.def Info: pic/logo.png used on input line 447.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [22
 
 ]
-File: pic/logo.png Graphic file (type png)
+\tf@nav=\write6
+\tf@toc=\write7
+\tf@snm=\write8
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 449.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 449.
 
-<use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 257.
-(pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
- [23
-
-]
-File: pic/logo.png Graphic file (type png)
- <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 266.
-(pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
- [24
-
-]
-<pic/at1.png, id=739, 393.72093pt x 389.20406pt>
-File: pic/at1.png Graphic file (type png)
- <use pic/at1.png>
-Package pdftex.def Info: pic/at1.png used on input line 272.
-(pdftex.def)             Requested size: 143.92021pt x 142.26378pt.
-
-
-LaTeX Warning: File `pic/fire1.png' not found on input line 272.
-
-
-! Package pdftex.def Error: File `pic/fire1.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.272 \end{frame}
-                 
-? 
-! Emergency stop.
- ...                                              
-                                                  
-l.272 \end{frame}
-                 
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
- 
+(C:\Users\Jasonllinux\Documents\GitHub\slides\开题-slides\report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 449.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 449.
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: 91E2CFBFD5A3FBF6F4DEEB4C33BFFF31;208.
+ ) 
 Here is how much of TeX's memory you used:
- 23255 strings out of 495354
- 417763 string characters out of 3183859
- 481934 words of memory out of 3000000
- 25765 multiletter control sequences out of 15000+200000
- 44541 words of font info for 126 fonts, out of 3000000 for 9000
+ 23264 strings out of 495354
+ 418601 string characters out of 3183859
+ 488430 words of memory out of 3000000
+ 25771 multiletter control sequences out of 15000+200000
+ 49347 words of font info for 137 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 49i,16n,64p,895b,1327s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 49i,16n,64p,895b,1531s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/Windows/Fonts/simsun.ttc>
+<C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/sim
+sun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/F
+onts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/W
+indows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.t
+tc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/
+simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Window
+s/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C
+:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsu
+n.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fon
+ts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Win
+dows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc
+><C:/Windows/Fonts/simsun.ttc><C:/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.p
+fb><C:/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/CTEX/MiKTeX/fonts/t
+ype1/urw/helvetic/uhvr8a.pfb>
+Output written on report.pdf (22 pages, 1470647 bytes).
+PDF statistics:
+ 818 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 173 words of extra memory for PDF output out of 10000 (max. 10000000)
+
