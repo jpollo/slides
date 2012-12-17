@@ -94,6 +94,243 @@ RoboCup 机器人救援系统
 %\end{exampleblock}
 %\end{frame}
 
+
+
+
+\section{Task Allocation}
+%%问题描述
+%\begin{frame} \transboxin<1>
+%\begin{center}
+%\begin{columns}[onlytextwidth]
+%\begin{column}{0.45\textwidth}
+%\includegraphics[height=3.7cm]{pic/question.jpg}
+%\end{column}
+%\begin{column}{0.45\textwidth}
+%{\Large Part 2}\\
+%Negotiation In MAS\\
+%Task Allocation Problem
+%\end{column}
+%\end{columns}
+%\end{center}
+%\end{frame}
+
+%%%%我们的解决方案
+%\begin{frame}
+%\begin{columns}[onlytextwidth]
+%\begin{column}{0.3\textwidth}
+%\begin{center}
+%\includegraphics[height=4cm]{pic/solution.jpg}
+%\end{center}
+%\end{column}
+%\begin{column}{0.7\textwidth}
+%\begin{center}
+%\Large Auction
+%\end{center}
+%\end{column}
+%\end{columns}
+%\end{frame}
+
+\begin{frame}
+\frametitle{拍卖作用图}
+\begin{center}
+\includegraphics[height=4cm]{pic/auction_shiyi.png}
+\end{center}
+\end{frame}
+
+
+\begin{frame}
+\begin{columns}[onlytextwidth]
+    \begin{column}{0.45\textwidth}
+        \begin{center}
+        \textbf{General Auction Framework}
+        \vspace{0.3cm}
+        \includegraphics[height=5cm]{pic/auction.png}
+        \end{center}
+    \end{column}
+
+    \begin{column}{0.45\textwidth}
+    \begin{block}{Feature}
+        \begin{itemize}
+          \item 分布式拍卖\\
+          \item 动态角色切换\\
+          \item 效用最大\\
+          \item 对已分配方案的动态调整(焦虑度)\\
+        \end{itemize}
+        \end{block}
+    \end{column}
+\end{columns}
+\end{frame}
+
+%\begin{frame}
+%\frametitle{拍卖/竞拍流程}
+%\begin{columns}[onlytextwidth]
+%\begin{column}{0.5\textwidth}
+%\begin{center}
+%\includegraphics[height=6cm]{pic/paimai.png}
+%\end{center}
+%\end{column}
+%\begin{column}{0.5\textwidth}
+%\begin{center}
+%\includegraphics[height=5.5cm]{pic/jingpai.png}
+%\end{center}
+%\end{column}
+%\end{columns}
+%\end{frame}
+
+
+\begin{frame}
+\frametitle{Experiment}
+\begin{center}
+\includegraphics[height=5cm]{pic/at1.png}
+%\includegraphics[height=5cm]{pic/fire1.png}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{Demo}
+
+    %\movie[width=6cm,height=5cm,poster,loop]{}{pic/at.avi}
+\end{frame}
+
+
+%\begin{frame}
+%\frametitle{Future Work}
+%\begin{itemize}
+%  \item 异类智能体协作
+%  \item 动作序列的解耦
+%\end{itemize}
+%\end{frame}
+
+\section{Dynamic Path Planning}
+
+%%%问题描述
+%\begin{frame} \transboxin<1>
+%\begin{center}
+%\begin{columns}[onlytextwidth]
+%\begin{column}{0.35\textwidth}
+%\includegraphics[height=3.7cm]{pic/question.jpg}
+%\end{column}
+%\begin{column}{0.65\textwidth}
+%{\Large Part 3}\\
+%Dynamic Path Planning In Disaster Urban
+%\end{column}
+%\end{columns}
+%\end{center}
+%\end{frame}
+%
+%\begin{frame}
+%\begin{exampleblock}{Path Planning In RCRSS}
+%\vspace{0.3cm}
+%Balance Between Safe and Short Distance\\
+%\end{exampleblock}
+%\end{frame}
+
+\begin{frame}
+\begin{columns}[onlytextwidth]
+\begin{column}{0.45\textwidth}
+\begin{block}{}
+\begin{center}
+传统的路径搜索
+\end{center}
+\begin{itemize}
+  \item DFS、BFS（Tree Graph）
+  \item A星 D星
+  \item 深度有限、双向搜索
+\end{itemize}
+\end{block}
+\end{column}
+
+\begin{column}{0.45\textwidth}
+\begin{alertblock}{}
+\begin{center}
+In RCRSS
+\end{center}
+\begin{itemize}
+  \item 环境复杂且动态变化
+  \item 道路节点众多
+  \item 计算量大、计算周期长
+\end{itemize}
+\end{alertblock}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+%%%我们的解决方案
+%\begin{frame}
+%\begin{columns}[onlytextwidth]
+%\begin{column}{0.45\textwidth}
+%\begin{center}
+%\includegraphics[height=4cm]{pic/solution.jpg}
+%\end{center}
+%\end{column}
+%\begin{column}{0.45\textwidth}
+%聚类分区\\
+%蚁群
+%\end{column}
+%\end{columns}
+%\end{frame}
+
+\begin{frame}
+\frametitle{动态路径规划流程}
+\begin{center}
+\includegraphics[height=6.5cm]{pic/ant.png}
+\end{center}
+\end{frame}
+
+\begin{frame}
+
+    \begin{exampleblock}{}
+    蚁群算法优化\\
+    \begin{itemize}
+      \item 解决道路环境信息未知情况下的实时路径优化
+      \item 充分利用全局地图信息结合II，建立目标吸引度
+      \item 解决搜索时间过长问题
+    \end{itemize}
+    \end{exampleblock}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Demo}
+
+\end{frame}
+
+
+%\begin{frame}
+%\begin{center}
+%聚类效果图\\
+%\vspace{1cm}
+%\includegraphics[height=3.5cm]{pic/before_cluster.png}
+%\hspace{0.3cm}
+%\includegraphics[height=3.5cm]{pic/after_cluster.png}
+%\end{center}
+%\end{frame}
+
+
+
+%\begin{frame}
+%\frametitle{Doing}
+%Select\\
+%全局信息，目标吸引\\
+%信息素，收敛性\\
+%\end{frame}
+
+%%del
+%\begin{frame}
+%需要解决的问题: \\
+%对蚁群算法做出的改进：\\
+%启发信息:\\
+%通过全局信息建立目标吸引函数，对蚂蚁在复杂动态环境下的路径搜索进行引导，
+%提高其选择里目标节点更近以及更安全的邻节点的概率。\\
+%信息素更新：\\
+%评估选择路径，对优秀路径额外增强\\
+%难点：\\
+%随机性、收敛速度、局部最优\\
+%\end{frame}
+
+
 \section{Information Fusion}
 %%问题描述
 %\begin{frame} \transboxin<1>
@@ -194,249 +431,6 @@ RoboCup 机器人救援系统
 %\end{center}
 %\end{frame}
 
-
-\section{Task Allocation}
-%%问题描述
-%\begin{frame} \transboxin<1>
-%\begin{center}
-%\begin{columns}[onlytextwidth]
-%\begin{column}{0.45\textwidth}
-%\includegraphics[height=3.7cm]{pic/question.jpg}
-%\end{column}
-%\begin{column}{0.45\textwidth}
-%{\Large Part 2}\\
-%Negotiation In MAS\\
-%Task Allocation Problem
-%\end{column}
-%\end{columns}
-%\end{center}
-%\end{frame}
-
-%%%%我们的解决方案
-%\begin{frame}
-%\begin{columns}[onlytextwidth]
-%\begin{column}{0.3\textwidth}
-%\begin{center}
-%\includegraphics[height=4cm]{pic/solution.jpg}
-%\end{center}
-%\end{column}
-%\begin{column}{0.7\textwidth}
-%\begin{center}
-%\Large Auction
-%\end{center}
-%\end{column}
-%\end{columns}
-%\end{frame}
-
-\begin{frame}
-\frametitle{拍卖作用图}
-\begin{center}
-\includegraphics[height=4cm]{pic/auction_shiyi.png}
-\end{center}
-\end{frame}
-
-
-\begin{frame}
-\begin{columns}[onlytextwidth]
-    \begin{column}{0.45\textwidth}
-        \begin{center}
-        \textbf{General Auction Framework}
-        \vspace{0.3cm}
-        \includegraphics[height=5cm]{pic/auction.png}
-        \end{center}
-    \end{column}
-
-    \begin{column}{0.45\textwidth}
-    \begin{block}{Feature}
-        \begin{itemize}
-          \item 分布式拍卖\\
-          \item 动态角色切换\\
-          \item 效用最大\\
-          \item 对已分配方案的动态调整(焦虑度)\\
-        \end{itemize}
-        \end{block}
-    \end{column}
-\end{columns}
-\end{frame}
-
-%\begin{frame}
-%\frametitle{拍卖/竞拍流程}
-%\begin{columns}[onlytextwidth]
-%\begin{column}{0.5\textwidth}
-%\begin{center}
-%\includegraphics[height=6cm]{pic/paimai.png}
-%\end{center}
-%\end{column}
-%\begin{column}{0.5\textwidth}
-%\begin{center}
-%\includegraphics[height=5.5cm]{pic/jingpai.png}
-%\end{center}
-%\end{column}
-%\end{columns}
-%\end{frame}
-
-
-\begin{frame}
-\frametitle{Experiment}
-\includegraphics[height=5cm]{pic/at1.png} \hspace{0.5cm}
-\includegraphics[height=5cm]{pic/fire1.png}
-\end{frame}
-
-\begin{frame}
-\frametitle{Demo}
-    \begin{columns}[onlytextwidth]
-        \begin{column}{0.5\textwidth}
-        \movie[width=6cm,height=5cm,poster,loop]{}{pic/at.avi}
-        \end{column}
-        \begin{column}{0.5\textwidth}
-        \movie[width=6cm,height=5cm,poster,loop]{}{pic/fire.avi}
-        \end{column}
-    \end{columns}
-\end{frame}
-
-
-%\begin{frame}
-%\frametitle{Future Work}
-%\begin{itemize}
-%  \item 异类智能体协作
-%  \item 动作序列的解耦
-%\end{itemize}
-%\end{frame}
-
-\section{Dynamic Path Planning}
-
-%%%问题描述
-%\begin{frame} \transboxin<1>
-%\begin{center}
-%\begin{columns}[onlytextwidth]
-%\begin{column}{0.35\textwidth}
-%\includegraphics[height=3.7cm]{pic/question.jpg}
-%\end{column}
-%\begin{column}{0.65\textwidth}
-%{\Large Part 3}\\
-%Dynamic Path Planning In Disaster Urban
-%\end{column}
-%\end{columns}
-%\end{center}
-%\end{frame}
-%
-%\begin{frame}
-%\begin{exampleblock}{Path Planning In RCRSS}
-%\vspace{0.3cm}
-%Balance Between Safe and Short Distance\\
-%\end{exampleblock}
-%\end{frame}
-
-\begin{frame}
-\begin{columns}[onlytextwidth]
-\begin{column}{0.45\textwidth}
-\begin{block}{}
-\begin{center}
-传统的路径搜索
-\end{center}
-\begin{itemize}
-  \item DFS、BFS（Tree Graph）
-  \item A星 D星
-  \item 深度有限、双向搜索
-\end{itemize}
-\end{block}
-\end{column}
-
-\begin{column}{0.45\textwidth}
-\begin{alertblock}{}
-\begin{center}
-In RCRSS
-\end{center}
-\begin{itemize}
-  \item 环境复杂且动态变化
-  \item 道路节点众多
-  \item 计算量大、计算周期长
-\end{itemize}
-\end{alertblock}
-\end{column}
-\end{columns}
-\end{frame}
-
-
-%%%我们的解决方案
-%\begin{frame}
-%\begin{columns}[onlytextwidth]
-%\begin{column}{0.45\textwidth}
-%\begin{center}
-%\includegraphics[height=4cm]{pic/solution.jpg}
-%\end{center}
-%\end{column}
-%\begin{column}{0.45\textwidth}
-%聚类分区\\
-%蚁群
-%\end{column}
-%\end{columns}
-%\end{frame}
-
-\begin{frame}
-\frametitle{动态路径规划流程}
-\begin{center}
-\includegraphics[height=6.5cm]{pic/ant.png}
-\end{center}
-\end{frame}
-
-\begin{frame}
-\begin{columns}[onlytextwidth]
-    \begin{column}{0.45\textwidth}
-        \begin{block}{基于密度聚类的分区}
-            DBSCAN\\
-            %(Density-Based Spatial Clustering of Applications with Noise)\\
-            \begin{center}
-            \includegraphics[height=3.6cm]{pic/DBSCAN.png}
-            \end{center}
-        \end{block}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-
-    \begin{exampleblock}{}
-    蚁群算法优化\\
-    \begin{itemize}
-      \item 解决道路环境信息未知情况下的实时路径优化
-      \item 充分利用全局地图信息结合II，建立目标吸引度
-      \item 解决搜索时间过长问题
-    \end{itemize}
-    \end{exampleblock}
-    \end{column}
-\end{columns}
-\end{frame}
-
-
-%\begin{frame}
-%\begin{center}
-%聚类效果图\\
-%\vspace{1cm}
-%\includegraphics[height=3.5cm]{pic/before_cluster.png}
-%\hspace{0.3cm}
-%\includegraphics[height=3.5cm]{pic/after_cluster.png}
-%\end{center}
-%\end{frame}
-
-
-
-%\begin{frame}
-%\frametitle{Doing}
-%Select\\
-%全局信息，目标吸引\\
-%信息素，收敛性\\
-%\end{frame}
-
-%%del
-%\begin{frame}
-%需要解决的问题: \\
-%对蚁群算法做出的改进：\\
-%启发信息:\\
-%通过全局信息建立目标吸引函数，对蚂蚁在复杂动态环境下的路径搜索进行引导，
-%提高其选择里目标节点更近以及更安全的邻节点的概率。\\
-%信息素更新：\\
-%评估选择路径，对优秀路径额外增强\\
-%难点：\\
-%随机性、收敛速度、局部最优\\
-%\end{frame}
 
 \begin{frame}
 \begin{center}

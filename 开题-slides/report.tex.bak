@@ -135,19 +135,19 @@ RoboCup 机器人救援系统
 %\end{frame}
 
 \begin{frame}
-\frametitle{Arch of MAS}
+\frametitle{信息融合机制}
 \begin{columns}[onlytextwidth]
 \begin{column}{0.6\textwidth}
 \begin{center}
 \includegraphics[height=5cm]{pic/MAS.png}
 \end{center}
 \end{column}
-\begin{column}{0.4\textwidth}
+\begin{column}{0.36\textwidth}
 \begin{center}
 \begin{exampleblock}{}
 感知Agent:\\
 \begin{itemize}
-  \item 自治体\\
+  \item 自治体,WorldModel\\
   \item 收集环境信息\\
   \item 协作完成任务
 \end{itemize}
@@ -196,7 +196,7 @@ RoboCup 机器人救援系统
 
 
 \section{Task Allocation}
-%%%问题描述
+%%问题描述
 %\begin{frame} \transboxin<1>
 %\begin{center}
 %\begin{columns}[onlytextwidth]
@@ -210,7 +210,7 @@ RoboCup 机器人救援系统
 %\end{column}
 %\end{columns}
 %\end{center}
-\end{frame}
+%\end{frame}
 
 %%%%我们的解决方案
 %\begin{frame}
@@ -278,20 +278,14 @@ RoboCup 机器人救援系统
 
 \begin{frame}
 \frametitle{Experiment}
-\includegraphics[height=5cm]{pic/at1.png} \hspace{0.5cm}
-\includegraphics[height=5cm]{pic/fire1.png}
+\includegraphics[height=5cm]{pic/at1.png}
+%\includegraphics[height=5cm]{pic/fire1.png}
 \end{frame}
 
 \begin{frame}
 \frametitle{Demo}
-    \begin{columns}[onlytextwidth]
-        \begin{column}{0.5\textwidth}
+
         \movie[width=6cm,height=5cm,poster,loop]{}{pic/at.avi}
-        \end{column}
-        \begin{column}{0.5\textwidth}
-        \movie[width=6cm,height=5cm,poster,loop]{}{pic/fire.avi}
-        \end{column}
-    \end{columns}
 \end{frame}
 
 
@@ -397,7 +391,7 @@ In RCRSS
     蚁群算法优化\\
     \begin{itemize}
       \item 解决道路环境信息未知情况下的实时路径优化
-      \item 充分利用全局地图信息，建立目标吸引度
+      \item 充分利用全局地图信息结合II，建立目标吸引度
       \item 解决搜索时间过长问题
     \end{itemize}
     \end{exampleblock}
