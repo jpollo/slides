@@ -273,23 +273,43 @@ In RCRSS
 
 \begin{frame}
 \frametitle{动态路径规划流程}
+\begin{columns}[onlytextwidth]
+\begin{column}{0.4\textwidth}
 \begin{center}
 \includegraphics[height=6.5cm]{pic/ant.png}
 \end{center}
-\end{frame}
-
-\begin{frame}
-
-    \begin{exampleblock}{}
+\end{column}
+\begin{column}{0.55\textwidth}
+\pause
+\begin{exampleblock}{}
     蚁群算法优化\\
     \begin{itemize}
-      \item 解决道路环境信息未知情况下的实时路径优化
-      \item 充分利用全局地图信息结合II，建立目标吸引度
-      \item 解决搜索时间过长问题
+      \item 状态转移（Edge）
+      \begin{itemize}
+        \item 先验知识（启发信息）
+        \item 信息素强度
+      \end{itemize}
+      \item 目标吸引度
+      \item 信息素释放和更新，加快收敛速度
     \end{itemize}
-    \end{exampleblock}
+\end{exampleblock}
 
+\end{column}
+\end{columns}
 \end{frame}
+
+%\begin{frame}
+%
+%    \begin{exampleblock}{}
+%    蚁群算法优化\\
+%    \begin{itemize}
+%      \item 解决道路环境信息未知情况下的实时路径优化
+%      \item 充分利用全局地图信息结合II，建立目标吸引度
+%      \item 解决搜索时间过长问题
+%    \end{itemize}
+%    \end{exampleblock}
+%
+%\end{frame}
 
 
 \begin{frame}

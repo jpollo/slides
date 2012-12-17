@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.8)  17 DEC 2012 08:59
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.8)  17 DEC 2012 09:42
 entering extended mode
 **C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/report.tex
 (C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/report.tex
@@ -1343,35 +1343,42 @@ Package pdftex.def Info: pic/logo.png used on input line 256.
  [13
 
 ]
-<pic/ant.png, id=445, 744.53156pt x 561.59813pt>
+<pic/ant.png, id=445, 408.77719pt x 529.22719pt>
 File: pic/ant.png Graphic file (type png)
  <use pic/ant.png>
-Package pdftex.def Info: pic/ant.png used on input line 279.
-(pdftex.def)             Requested size: 245.18494pt x 184.9429pt.
-File: pic/logo.png Graphic file (type png)
+Package pdftex.def Info: pic/ant.png used on input line 299.
+(pdftex.def)             Requested size: 142.84961pt x 184.9429pt.
 
+Overfull \hbox (5.93358pt too wide) in paragraph at lines 299--299
+ [] 
+ []
+
+File: pic/logo.png Graphic file (type png)
 <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 279.
+Package pdftex.def Info: pic/logo.png used on input line 299.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [14
 
- <C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/pic/ant.png>] <pic
-/DBSCAN.png, id=473, 401.5pt x 289.08pt>
-File: pic/DBSCAN.png Graphic file (type png)
+ <C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/pic/ant.png>]
+File: pic/ant.png Graphic file (type png)
+ <use pic/ant.png>
+Package pdftex.def Info: pic/ant.png used on input line 299.
+(pdftex.def)             Requested size: 142.84961pt x 184.9429pt.
 
-<use pic/DBSCAN.png>
-Package pdftex.def Info: pic/DBSCAN.png used on input line 304.
-(pdftex.def)             Requested size: 142.26086pt x 102.43008pt.
+Overfull \hbox (5.93358pt too wide) in paragraph at lines 299--299
+ [] 
+ []
+
 File: pic/logo.png Graphic file (type png)
- <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 304.
+<use pic/logo.png>
+Package pdftex.def Info: pic/logo.png used on input line 299.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [15
 
- <C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/pic/DBSCAN.png>]
+]
 File: pic/logo.png Graphic file (type png)
  <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 310.
+Package pdftex.def Info: pic/logo.png used on input line 318.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [16
 
@@ -1380,21 +1387,21 @@ Package pdftex.def Info: pic/logo.png used on input line 310.
 File: pic/logo.png Graphic file (type png)
 
 <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 346.
+Package pdftex.def Info: pic/logo.png used on input line 354.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [17
 
 ]
 File: pic/logo.png Graphic file (type png)
  <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 377.
+Package pdftex.def Info: pic/logo.png used on input line 385.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [18
 
 ]
 File: pic/logo.png Graphic file (type png)
  <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 377.
+Package pdftex.def Info: pic/logo.png used on input line 385.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [19
 
@@ -1402,46 +1409,46 @@ Package pdftex.def Info: pic/logo.png used on input line 377.
 File: pic/logo.png Graphic file (type png)
 
 <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 377.
+Package pdftex.def Info: pic/logo.png used on input line 385.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [20
 
-] <pic/MAS.png, id=638, 502.12593pt x 430.60875pt>
+] <pic/MAS.png, id=637, 502.12593pt x 430.60875pt>
 File: pic/MAS.png Graphic file (type png)
 
 <use pic/MAS.png>
-Package pdftex.def Info: pic/MAS.png used on input line 413.
+Package pdftex.def Info: pic/MAS.png used on input line 421.
 (pdftex.def)             Requested size: 165.89362pt x 142.26378pt.
 File: pic/logo.png Graphic file (type png)
  <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 413.
+Package pdftex.def Info: pic/logo.png used on input line 421.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [21
 
  <C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/pic/MAS.png>]
-<pic/hmm_shiyi.png, id=666, 536.0025pt x 264.23718pt>
+<pic/hmm_shiyi.png, id=665, 536.0025pt x 264.23718pt>
 File: pic/hmm_shiyi.png Graphic file (type png)
  <use pic/hmm_shiyi.png>
-Package pdftex.def Info: pic/hmm_shiyi.png used on input line 438.
+Package pdftex.def Info: pic/hmm_shiyi.png used on input line 446.
 (pdftex.def)             Requested size: 259.72371pt x 128.0374pt.
 File: pic/logo.png Graphic file (type png)
 
 <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 438.
+Package pdftex.def Info: pic/logo.png used on input line 446.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [22
 
  <C:/Users/Jasonllinux/Documents/GitHub/slides/开题-slides/pic/hmm_shiyi.png>
 ]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 453.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 461.
 LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <14.4> not available
-(Font)              Font shape `OT1/phv/b/it' tried instead on input line 453.
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 461.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <14.4> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 453.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 461.
 File: pic/logo.png Graphic file (type png)
  <use pic/logo.png>
-Package pdftex.def Info: pic/logo.png used on input line 453.
+Package pdftex.def Info: pic/logo.png used on input line 461.
 (pdftex.def)             Requested size: 54.84085pt x 31.2982pt.
  [23
 
@@ -1449,23 +1456,23 @@ Package pdftex.def Info: pic/logo.png used on input line 453.
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 455.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 455.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 463.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 463.
 
 (C:\Users\Jasonllinux\Documents\GitHub\slides\开题-slides\report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 455.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 455.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 463.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 463.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: FF81FE157E8A71D6083BFE6D82533EB1;208.
  ) 
 Here is how much of TeX's memory you used:
- 23260 strings out of 495354
- 418542 string characters out of 3183859
- 488173 words of memory out of 3000000
- 25769 multiletter control sequences out of 15000+200000
- 49347 words of font info for 137 fonts, out of 3000000 for 9000
+ 23290 strings out of 495354
+ 419559 string characters out of 3183859
+ 490777 words of memory out of 3000000
+ 25801 multiletter control sequences out of 15000+200000
+ 50839 words of font info for 141 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 49i,16n,64p,895b,1507s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,16n,67p,895b,1639s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/Windows/Fonts/simsun.ttc>
 <C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/sim
 sun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/F
@@ -1478,12 +1485,12 @@ s/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C
 n.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fon
 ts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Win
 dows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc
-><C:/Windows/Fonts/simsun.ttc><C:/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.p
-fb><C:/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/CTEX/MiKTeX/fonts/t
-ype1/urw/helvetic/uhvr8a.pfb>
-Output written on report.pdf (23 pages, 1376078 bytes).
+><C:/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/CTEX/MiKTeX/fonts/type
+1/urw/helvetic/uhvbo8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
+
+Output written on report.pdf (23 pages, 1317225 bytes).
 PDF statistics:
- 841 PDF objects out of 1000 (max. 8388607)
+ 837 PDF objects out of 1000 (max. 8388607)
  51 named destinations out of 1000 (max. 500000)
- 168 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 169 words of extra memory for PDF output out of 10000 (max. 10000000)
 
