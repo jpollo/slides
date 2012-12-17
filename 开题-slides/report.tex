@@ -72,9 +72,13 @@ RoboCup 机器人救援系统
 \frametitle{研究背景}
 \begin{block}{挑战}
 \begin{itemize}
-  \item 救援任务复杂
-  \item 受限且不可靠的通信
-  \item 高度动态变化
+  \item 救援任务复杂，不同类型智能体，多种任务，互相交错
+  \pause
+  \item 受限且不可靠的通信，智能感知局部信息
+  \pause
+  \item 高度动态变化，状态空间极大
+  \pause
+  \item 城市路况复杂，道路拥堵未知
 \end{itemize}
 \end{block}
 \end{frame}
@@ -93,8 +97,6 @@ RoboCup 机器人救援系统
 %\end{itemize}
 %\end{exampleblock}
 %\end{frame}
-
-
 
 
 \section{Task Allocation}
@@ -129,6 +131,19 @@ RoboCup 机器人救援系统
 %\end{column}
 %\end{columns}
 %\end{frame}
+
+\begin{frame}
+\frametitle{Task Allocation Problem}
+\begin{itemize}
+    \pause
+  \item Task与Agent之间多对多的映射\\
+  \pause
+  \item Negotiation In MAS\\
+  \pause
+  \item Auction
+\end{itemize}
+
+\end{frame}
 
 \begin{frame}
 \frametitle{拍卖作用图}
@@ -254,7 +269,6 @@ In RCRSS
 \end{column}
 \end{columns}
 \end{frame}
-
 
 %%%我们的解决方案
 %\begin{frame}
@@ -410,7 +424,7 @@ In RCRSS
 \end{itemize}
 融合Agent:
 \begin{itemize}
-  \item 处理信息\\
+  \item 处理（计算）信息\\
   \item 制定团队规划\\
 \end{itemize}
 \end{exampleblock}
@@ -440,7 +454,7 @@ In RCRSS
 \begin{frame}
 \frametitle{HMM}
 \begin{center}
-\includegraphics[height=4.5cm]{pic/hmm_shiyi.png}
+\includegraphics[height=3cm]{pic/hmm_shiyi.png}
 \end{center}
 
 \end{frame}
