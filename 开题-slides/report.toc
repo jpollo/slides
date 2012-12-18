@@ -1,5 +1,7 @@
 \beamer@endinputifotherversion {3.14pt}
 \beamer@sectionintoc {1}{Background}{3}{0}{1}
-\beamer@sectionintoc {2}{Task Allocation}{10}{0}{2}
-\beamer@sectionintoc {3}{Dynamic Path Planning}{19}{0}{3}
-\beamer@sectionintoc {4}{Information Fusion}{24}{0}{4}
+\beamer@sectionintoc {2}{Research Object}{15}{0}{2}
+\beamer@sectionintoc {3}{Research Content}{17}{0}{3}
+\beamer@subsectionintoc {3}{1}{Task Allocation Based on Auction}{19}{0}{3}
+\beamer@subsectionintoc {3}{2}{Dynamic Path Planning}{30}{0}{3}
+\beamer@subsectionintoc {3}{3}{Info Infusion}{35}{0}{3}

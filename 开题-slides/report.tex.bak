@@ -18,7 +18,7 @@
 
 \begin{document}
 %% title
-\title{RoboCup机器人救援仿真中多智能体协作研究}
+\title{RoboCup机器人救援仿真中多智能体协作}
 \subtitle{开题报告}
 \author{沈 杰\\
 导师：梁志伟
@@ -31,6 +31,7 @@
 \begin{frame}
 \titlepage
 \end{frame}
+
 \begin{frame}
     \frametitle{Outline}
     \tableofcontents
@@ -72,167 +73,84 @@ RoboCup 机器人救援系统
 \frametitle{研究背景}
 \begin{block}{挑战}
 \begin{itemize}
-  \item 救援任务复杂
-  \item 受限且不可靠的通信
-  \item 高度动态变化
+  \item 救援任务复杂，不同类型智能体，多种任务，互相交错
+  \pause
+  \item 受限且不可靠的通信，只能感知局部信息
+  \pause
+  \item 高度动态变化，状态空间极大
+  \pause
+  \item 城市路况复杂，道路拥堵未知
 \end{itemize}
 \end{block}
 \end{frame}
 
-
-%\begin{frame}
-%\frametitle{国内外研究状况}
-%\begin{exampleblock}{}
-%\begin{itemize}
-%  \item RedSun--人工免疫，基于粒子滤波的火势预测 \\
-%  \item YunLu--AOE-Net带权与或树的动态任务协调\\
-%  \item ZJUBase--基于模糊Q函数的多机器人合作模型
-%  \item SOS-- Integrated GA-Fuzzy Approach\\
-%  \item MRL--Evolutionary Reinforcement Learning Algorithm \\
-%  \item \ldots
-%\end{itemize}
-%\end{exampleblock}
-%\end{frame}
-
-\section{Information Fusion}
-%%问题描述
-%\begin{frame} \transboxin<1>
-%\begin{center}
-%\begin{columns}[onlytextwidth]
-%\begin{column}{0.35\textwidth}
-%\includegraphics[height=3.7cm]{pic/question.jpg}
-%\end{column}
-%\begin{column}{0.65\textwidth}
-%{\Large Part 1}\\
-%\begin{itemize}
-%  \item Info Infusion In RCRSS
-%  \item Arch of Agent Based on II
-%\end{itemize}
-%
-%\end{column}
-%\end{columns}
-%\end{center}
-%\end{frame}
-
-%
 \begin{frame}
-\begin{block}{信息融合(Info Fusion)}
+\frametitle{国内外研究现状}
 \begin{itemize}
-  \item (Why)Limit Info,难以形成对全局的认识
+  \item Bratman提出智能体信念、愿望、意图的理性平衡观点，BDI模型成为研究智能体理性和推理机制的基础
+  \item Urfee和Marie提出了部分全局规划PGP(Partial Global Planning)的方法，提供了一种多智能体系统的协调框架，适用于连续、动态的协调系统，允许各智能体进行动态协作
+    \item 协进化模型
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{国内外研究现状}
+\begin{itemize}
+  \item \textbf{SEU-Jolly} 基于人工免疫的协作算法,基于粒子滤波的火势预测
+  \item \textbf{ZJU-Base} AOE-Net带权与或树的动态任务协调
+  \item \textbf{SOS} 基于Q学习的在线合作算法
+\end{itemize}
+\end{frame}
+
+
+\section{Research Object}
+
+\begin{frame}
+\frametitle{研究目标}
+构建一支强有力的救援队伍\\
+在城市救援过程中，当处于复杂动态且人力资源、通信受限的环境\\
+警察、救护、消防三类救援智能体进行有效协作、资源分配\\
+提高整体救援效率\\ 
+\end{frame}
+
+
+
+\section{Research Content}
+\subsection{Task Allocation Based on Auction}
+\begin{frame}
+\frametitle{Task Allocation Problem}
+\begin{itemize}
+    \pause
+  \item Task与Agent之间多对多的映射\\
   \pause
-  \item (Condition)时间分布性、空间分布性、功能分布性（异构）
-  \pause
-  \item (Aim)全局环境的态势估计,为上层决策提供坚实基础
+  \item Negotiation In MAS\\
+\end{itemize}
+
+\pause
+\begin{block}{Solutions}
+\begin{itemize}
+  \item 黑板模型
+  \item 强化学习
+  \item 遗传算法
+  \item \textcolor[rgb]{1.00,0.00,0.00}{Auction}
 \end{itemize}
 \end{block}
-\end{frame}
-
-%%%%我们的解决方案
-%\begin{frame}
-%\begin{center}
-%\includegraphics[height=4cm]{pic/solution.jpg}
-%\end{center}
-%\end{frame}
-
-\begin{frame}
-\frametitle{信息融合机制}
-\begin{columns}[onlytextwidth]
-\begin{column}{0.6\textwidth}
-\begin{center}
-\includegraphics[height=5cm]{pic/MAS.png}
-\end{center}
-\end{column}
-\begin{column}{0.36\textwidth}
-\begin{center}
-\begin{exampleblock}{}
-感知Agent:\\
-\begin{itemize}
-  \item 自治体,WorldModel\\
-  \item 收集环境信息\\
-  \item 协作完成任务
-\end{itemize}
-融合Agent:
-\begin{itemize}
-  \item 处理信息\\
-  \item 制定团队规划\\
-\end{itemize}
-\end{exampleblock}
-
-\end{center}
-\end{column}
-\end{columns}
-\end{frame}
-
-%%%TODO
-%\begin{frame}
-%\frametitle{基于HMM的状态预测}
-%\begin{columns}[onlytextwidth]
-%\begin{column}{0.45\textwidth}
-%\begin{center}
-%\includegraphics[height=3.8cm]{pic/hmm.png}
-%\end{center}
-%\end{column}
-%\begin{column}{0.5\textwidth}
-%\begin{center}
-%\includegraphics[height=5cm]{pic/hmm_shiyi.png}
-%\end{center}
-%\end{column}
-%\end{columns}
-%\end{frame}
-
-\begin{frame}
-\frametitle{HMM}
-\begin{center}
-\includegraphics[height=4.5cm]{pic/hmm_shiyi.png}
-\end{center}
 
 \end{frame}
-%\begin{frame}
-%\frametitle{Arch of Agent}
-%\begin{center}
-%\includegraphics[height=6cm]{pic/arch2.png}
-%\end{center}
-%\end{frame}
-
-
-\section{Task Allocation}
-%%问题描述
-%\begin{frame} \transboxin<1>
-%\begin{center}
-%\begin{columns}[onlytextwidth]
-%\begin{column}{0.45\textwidth}
-%\includegraphics[height=3.7cm]{pic/question.jpg}
-%\end{column}
-%\begin{column}{0.45\textwidth}
-%{\Large Part 2}\\
-%Negotiation In MAS\\
-%Task Allocation Problem
-%\end{column}
-%\end{columns}
-%\end{center}
-%\end{frame}
-
-%%%%我们的解决方案
-%\begin{frame}
-%\begin{columns}[onlytextwidth]
-%\begin{column}{0.3\textwidth}
-%\begin{center}
-%\includegraphics[height=4cm]{pic/solution.jpg}
-%\end{center}
-%\end{column}
-%\begin{column}{0.7\textwidth}
-%\begin{center}
-%\Large Auction
-%\end{center}
-%\end{column}
-%\end{columns}
-%\end{frame}
 
 \begin{frame}
 \frametitle{拍卖作用图}
 \begin{center}
-\includegraphics[height=4cm]{pic/auction_shiyi.png}
+\includegraphics[height=5cm]{pic/auction_shiyi.png}
 \end{center}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+\includegraphics[height=6cm]{pic/auction_liucheng.png}
+\end{center}
+
 \end{frame}
 
 
@@ -245,7 +163,7 @@ RoboCup 机器人救援系统
         \includegraphics[height=5cm]{pic/auction.png}
         \end{center}
     \end{column}
-
+    \pause
     \begin{column}{0.45\textwidth}
     \begin{block}{Feature}
         \begin{itemize}
@@ -277,50 +195,21 @@ RoboCup 机器人救援系统
 
 
 \begin{frame}
-\frametitle{Experiment}
-\includegraphics[height=5cm]{pic/at1.png}
+\frametitle{Demo1}
+\begin{center}
+\includegraphics[height=6cm]{pic/at1.png}
 %\includegraphics[height=5cm]{pic/fire1.png}
+\end{center}
 \end{frame}
 
 \begin{frame}
-\frametitle{Demo}
+\frametitle{Demo1}
 
-        \movie[width=6cm,height=5cm,poster,loop]{}{pic/at.avi}
+    %\movie[width=6cm,height=5cm,poster,loop]{}{pic/at.avi}
 \end{frame}
 
 
-%\begin{frame}
-%\frametitle{Future Work}
-%\begin{itemize}
-%  \item 异类智能体协作
-%  \item 动作序列的解耦
-%\end{itemize}
-%\end{frame}
-
-\section{Dynamic Path Planning}
-
-%%%问题描述
-%\begin{frame} \transboxin<1>
-%\begin{center}
-%\begin{columns}[onlytextwidth]
-%\begin{column}{0.35\textwidth}
-%\includegraphics[height=3.7cm]{pic/question.jpg}
-%\end{column}
-%\begin{column}{0.65\textwidth}
-%{\Large Part 3}\\
-%Dynamic Path Planning In Disaster Urban
-%\end{column}
-%\end{columns}
-%\end{center}
-%\end{frame}
-%
-%\begin{frame}
-%\begin{exampleblock}{Path Planning In RCRSS}
-%\vspace{0.3cm}
-%Balance Between Safe and Short Distance\\
-%\end{exampleblock}
-%\end{frame}
-
+\subsection{Dynamic Path Planning}
 \begin{frame}
 \begin{columns}[onlytextwidth]
 \begin{column}{0.45\textwidth}
@@ -344,13 +233,12 @@ In RCRSS
 \begin{itemize}
   \item 环境复杂且动态变化
   \item 道路节点众多
-  \item 计算量大、计算周期长
+  \item 计算量大、运算周期长
 \end{itemize}
 \end{alertblock}
 \end{column}
 \end{columns}
 \end{frame}
-
 
 %%%我们的解决方案
 %\begin{frame}
@@ -369,34 +257,49 @@ In RCRSS
 
 \begin{frame}
 \frametitle{动态路径规划流程}
+\begin{columns}[onlytextwidth]
+\begin{column}{0.4\textwidth}
 \begin{center}
 \includegraphics[height=6.5cm]{pic/ant.png}
 \end{center}
-\end{frame}
-
-\begin{frame}
-\begin{columns}[onlytextwidth]
-    \begin{column}{0.45\textwidth}
-        \begin{block}{基于密度聚类的分区}
-            DBSCAN\\
-            %(Density-Based Spatial Clustering of Applications with Noise)\\
-            \begin{center}
-            \includegraphics[height=3.6cm]{pic/DBSCAN.png}
-            \end{center}
-        \end{block}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-
-    \begin{exampleblock}{}
+\end{column}
+\begin{column}{0.55\textwidth}
+\pause
+\begin{exampleblock}{}
     蚁群算法优化\\
     \begin{itemize}
-      \item 解决道路环境信息未知情况下的实时路径优化
-      \item 充分利用全局地图信息结合II，建立目标吸引度
-      \item 解决搜索时间过长问题
+      \item 状态转移（Edge）
+      \begin{itemize}
+        \item 先验知识（启发信息）
+        \item 信息素强度
+      \end{itemize}
+      \item 目标吸引度( 死锁、振荡)
+      \item 信息素释放和更新
+      \item Path Selection
     \end{itemize}
-    \end{exampleblock}
-    \end{column}
+\end{exampleblock}
+
+\end{column}
 \end{columns}
+\end{frame}
+
+%\begin{frame}
+%
+%    \begin{exampleblock}{}
+%    蚁群算法优化\\
+%    \begin{itemize}
+%      \item 解决道路环境信息未知情况下的实时路径优化
+%      \item 充分利用全局地图信息结合II，建立目标吸引度
+%      \item 解决搜索时间过长问题
+%    \end{itemize}
+%    \end{exampleblock}
+%
+%\end{frame}
+
+
+\begin{frame}
+\frametitle{Demo2}
+
 \end{frame}
 
 
@@ -431,6 +334,123 @@ In RCRSS
 %难点：\\
 %随机性、收敛速度、局部最优\\
 %\end{frame}
+
+
+%\subsection{Information Fusion}
+%%问题描述
+%\begin{frame} \transboxin<1>
+%\begin{center}
+%\begin{columns}[onlytextwidth]
+%\begin{column}{0.35\textwidth}
+%\includegraphics[height=3.7cm]{pic/question.jpg}
+%\end{column}
+%\begin{column}{0.65\textwidth}
+%{\Large Part 1}\\
+%\begin{itemize}
+%  \item Info Infusion In RCRSS
+%  \item Arch of Agent Based on II
+%\end{itemize}
+%
+%\end{column}
+%\end{columns}
+%\end{center}
+%\end{frame}
+
+%
+\subsection{Info Infusion}
+\begin{frame}
+\begin{block}{信息融合(Info Fusion)}
+\begin{itemize}
+  \item (Why)Limit Info,难以形成对全局的认识
+  \pause
+  \item (Condition)时间分布性、空间分布性、功能分布性（异构）
+  \pause
+  \item (Aim)全局环境的态势估计,为上层决策提供坚实基础
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+%%%%我们的解决方案
+%\begin{frame}
+%\begin{center}
+%\includegraphics[height=4cm]{pic/solution.jpg}
+%\end{center}
+%\end{frame}
+
+\begin{frame}
+\frametitle{信息融合机制}
+\begin{columns}[onlytextwidth]
+\begin{column}{0.6\textwidth}
+\begin{center}
+\includegraphics[height=5cm]{pic/MAS.png}
+\end{center}
+\end{column}
+\begin{column}{0.36\textwidth}
+\begin{center}
+\begin{exampleblock}{}
+感知Agent:\\
+\begin{itemize}
+  \item 自治体,WorldModel\\
+  \item 收集环境信息\\
+  \item 协作完成任务
+\end{itemize}
+融合Agent:
+\begin{itemize}
+  \item 处理（计算）信息\\
+  \item 制定团队规划\\
+\end{itemize}
+\end{exampleblock}
+
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+%%%TODO
+%\begin{frame}
+%\frametitle{基于HMM的状态预测}
+%\begin{columns}[onlytextwidth]
+%\begin{column}{0.45\textwidth}
+%\begin{center}
+%\includegraphics[height=3.8cm]{pic/hmm.png}
+%\end{center}
+%\end{column}
+%\begin{column}{0.5\textwidth}
+%\begin{center}
+%\includegraphics[height=5cm]{pic/hmm_shiyi.png}
+%\end{center}
+%\end{column}
+%\end{columns}
+%\end{frame}
+
+\begin{frame}
+\frametitle{HMM}
+\begin{center}
+\includegraphics[height=3cm]{pic/hmm_shiyi.png}
+\end{center}
+\end{frame}
+
+%\begin{frame}
+%\frametitle{Arch of Agent}
+%\begin{center}
+%\includegraphics[height=6cm]{pic/arch2.png}
+%\end{center}
+%\end{frame}
+
+\begin{frame}
+获奖情况
+\begin{itemize}
+  \item 2012 RoboCup IranOpen, Rank 8th
+  \item 2012 RoboCup ChinaOpen, Rank 5th
+\end{itemize}
+
+论文\\
+\begin{itemize}
+  \item 《RCRSS中基于拍卖的任务分配算法》 待发
+\end{itemize}
+\end{frame}
+
 
 \begin{frame}
 \begin{center}
