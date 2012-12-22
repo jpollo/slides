@@ -18,7 +18,7 @@
 
 \begin{document}
 %% title
-\title{RoboCup机器人救援仿真中多智能体协作}
+\title{RoboCup机器人救援仿真中的多智能体协作}
 \subtitle{开题报告}
 \author{沈 杰\\
 导师：梁志伟
@@ -87,9 +87,12 @@ RoboCup 机器人救援系统
 \begin{frame}
 \frametitle{国内外研究现状}
 \begin{itemize}
-  \item Bratman提出智能体信念、愿望、意图的理性平衡观点，BDI模型成为研究智能体理性和推理机制的基础
-  \item Urfee和Marie提出了部分全局规划PGP(Partial Global Planning)的方法，提供了一种多智能体系统的协调框架，适用于连续、动态的协调系统，允许各智能体进行动态协作
-    \item 协进化模型
+    \pause
+  \item Bratman提出智能体信念(Brief)、愿望(Desire)、意图(Intention)的理性平衡观点，BDI模型成为研究智能体理性和推理机制的基础
+  \pause
+  \item Marie提出了部分全局规划PGP(Partial Global Planning)的方法，提供了一种多智能体系统的协调框架，适用于连续、动态的协调系统，允许各智能体进行动态协作
+  \pause
+    \item 杨东勇设计了一种基于协作协进化算法的分层式的智能体体系结构，通过协作协进化算法将多个神经网络的进化联系起来,使多个智能体产生协作
 \end{itemize}
 
 \end{frame}
@@ -99,7 +102,7 @@ RoboCup 机器人救援系统
 \begin{itemize}
   \item \textbf{SEU-Jolly} 基于人工免疫的协作算法,基于粒子滤波的火势预测
   \item \textbf{ZJU-Base} AOE-Net带权与或树的动态任务协调
-  \item \textbf{SOS} 基于Q学习的在线合作算法
+  \item \textbf{SOS} 基于Q学习的在线协作算法
 \end{itemize}
 \end{frame}
 
@@ -111,13 +114,29 @@ RoboCup 机器人救援系统
 构建一支强有力的救援队伍\\
 在城市救援过程中，当处于复杂动态且人力资源、通信受限的环境\\
 警察、救护、消防三类救援智能体进行有效协作、资源分配\\
-提高整体救援效率\\ 
+提高整体救援效率\\
 \end{frame}
 
 
 
 \section{Research Content}
+\begin{frame}
+\frametitle{研究内容}
+\begin{itemize}
+  \item 城市救援环境中异构智能体的任务分配问题
+  \item 救援智能体在复杂动态环境中动态路径规划问题
+  \item 救援智能体信息融合机制
+\end{itemize}
+\end{frame}
+
 \subsection{Task Allocation Based on Auction}
+
+\begin{frame}
+\begin{center}
+Part1.   RCRSS中基于拍卖的任务分配算法
+\end{center}
+\end{frame}
+
 \begin{frame}
 \frametitle{Task Allocation Problem}
 \begin{itemize}
@@ -133,7 +152,7 @@ RoboCup 机器人救援系统
   \item 黑板模型
   \item 强化学习
   \item 遗传算法
-  \item \textcolor[rgb]{1.00,0.00,0.00}{Auction}
+  \item \textcolor[rgb]{1.00,0.00,0.00}{Auction},拍卖
 \end{itemize}
 \end{block}
 
@@ -197,19 +216,26 @@ RoboCup 机器人救援系统
 \begin{frame}
 \frametitle{Demo1}
 \begin{center}
-\includegraphics[height=6cm]{pic/at1.png}
+\includegraphics[height=7cm]{pic/at1.png}
 %\includegraphics[height=5cm]{pic/fire1.png}
 \end{center}
 \end{frame}
 
 \begin{frame}
 \frametitle{Demo1}
-
-    %\movie[width=6cm,height=5cm,poster,loop]{}{pic/at.avi}
+\begin{center}
+    \movie[width=8.5cm,height=7cm,poster,loop]{}{pic/at.avi}
+\end{center}
 \end{frame}
 
 
 \subsection{Dynamic Path Planning}
+\begin{frame}
+\begin{center}
+Part2.   救援智能体的动态路径规划
+\end{center}
+\end{frame}
+
 \begin{frame}
 \begin{columns}[onlytextwidth]
 \begin{column}{0.45\textwidth}
@@ -266,7 +292,7 @@ In RCRSS
 \begin{column}{0.55\textwidth}
 \pause
 \begin{exampleblock}{}
-    蚁群算法优化\\
+    蚁群算法\\
     \begin{itemize}
       \item 状态转移（Edge）
       \begin{itemize}
@@ -299,7 +325,9 @@ In RCRSS
 
 \begin{frame}
 \frametitle{Demo2}
-
+\begin{center}
+\movie[width=9cm,height=7cm,poster,loop]{}{pic/ant_1.avi}
+\end{center}
 \end{frame}
 
 
@@ -359,11 +387,17 @@ In RCRSS
 %
 \subsection{Info Infusion}
 \begin{frame}
+\begin{center}
+Part3.   机器人救援环境中的信息融合机制
+\end{center}
+\end{frame}
+
+\begin{frame}
 \begin{block}{信息融合(Info Fusion)}
 \begin{itemize}
   \item (Why)Limit Info,难以形成对全局的认识
   \pause
-  \item (Condition)时间分布性、空间分布性、功能分布性（异构）
+  \item (Condition)时间分布性、空间分布性、功能分布性
   \pause
   \item (Aim)全局环境的态势估计,为上层决策提供坚实基础
 \end{itemize}
@@ -383,7 +417,7 @@ In RCRSS
 \begin{columns}[onlytextwidth]
 \begin{column}{0.6\textwidth}
 \begin{center}
-\includegraphics[height=5cm]{pic/MAS.png}
+\includegraphics[height=5.5cm]{pic/MAS.png}
 \end{center}
 \end{column}
 \begin{column}{0.36\textwidth}
@@ -425,7 +459,7 @@ In RCRSS
 %\end{frame}
 
 \begin{frame}
-\frametitle{HMM}
+\frametitle{信息融合机制}
 \begin{center}
 \includegraphics[height=3cm]{pic/hmm_shiyi.png}
 \end{center}
@@ -445,10 +479,10 @@ In RCRSS
   \item 2012 RoboCup ChinaOpen, Rank 5th
 \end{itemize}
 
-论文\\
-\begin{itemize}
-  \item 《RCRSS中基于拍卖的任务分配算法》 待发
-\end{itemize}
+%论文\\
+%\begin{itemize}
+%  \item 《RCRSS中基于拍卖的任务分配算法》 待发
+%\end{itemize}
 \end{frame}
 
 
